@@ -6,7 +6,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: process.env.VITE_BASE_URL ?? './',
+    base: './',
     plugins: [react(), tailwindcss(), svgr()],
     resolve: {
       alias: {
