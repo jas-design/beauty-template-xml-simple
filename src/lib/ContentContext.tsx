@@ -539,7 +539,7 @@ export function ContentProvider({ children }: { children: ReactNode }) {
     // Map language to filename
     const filename = i18n.language === 'pt-BR' || i18n.language === 'pt' ? 'content_pt-BR.xml' : 'content_en.xml';
 
-    fetch(`/${filename}`)
+    fetch(`${BASE}${filename}`)
       .then(res => {
         if (!res.ok) throw new Error(`Failed to load ${filename}: ${res.status}`);
         return res.text();
