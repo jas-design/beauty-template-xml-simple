@@ -1,4 +1,4 @@
-﻿import { motion } from 'motion/react';
+import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useContent } from '../../lib/ContentContext';
@@ -20,7 +20,7 @@ export function CallToActionBanner() {
          <div className="relative z-10 max-w-7xl mx-auto px-6 w-full h-full flex flex-col justify-center">
             <div className="max-w-2xl space-y-8 text-white">
                <div className="space-y-4">
-                  <h2 className="text-[64px] font-serif font-medium leading-[1.1] tracking-tight">{home.ctaBanner.titleLarge}</h2>
+                  <h2 className="text-[36px] sm:text-[48px] md:text-[64px] font-serif font-medium leading-[1.1] tracking-tight">{home.ctaBanner.titleLarge}</h2>
                   <div className="w-16 h-0.5 bg-[#D4E964]" />
                </div>
 

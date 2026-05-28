@@ -26,7 +26,7 @@ export function AppointmentSection() {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="bg-white rounded-[50px] shadow-2xl lg:translate-y-32 lg:-ml-20 overflow-hidden flex flex-col"
+            className="bg-white rounded-[50px] shadow-2xl lg:translate-y-32 lg:-ml-20 overflow-hidden flex flex-col order-2 lg:order-1"
           >
             <div className="p-8 md:p-14 space-y-10 flex-grow">
               <div className="space-y-8">
@@ -107,7 +107,7 @@ export function AppointmentSection() {
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="space-y-12 lg:pl-8 py-10"
+            className="space-y-12 lg:pl-8 py-10 order-1 lg:order-2"
           >
             <div className="space-y-6">
               <span className="text-primary font-bold uppercase tracking-[0.2em] text-[12px]">{t('appointment.badge')}</span>

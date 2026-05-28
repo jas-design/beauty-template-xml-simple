@@ -51,8 +51,8 @@ export function Testimonials() {
           </div>
 
           {/* Left: Image Container */}
-          <div className="w-full lg:w-[45%] shrink-0 relative z-10">
-            <div className="rounded-[20px] overflow-hidden aspect-[4/3] min-h-[250px] sm:min-h-[350px] lg:min-h-[400px] shadow-sm bg-white">
+          <div className="w-full lg:w-[45%] shrink-0 relative z-10 order-2 lg:order-1">
+            <div className="rounded-[20px] overflow-hidden aspect-[4/3] lg:min-h-[400px] shadow-sm bg-white">
               <AnimatePresence mode="wait">
                 <motion.img
                   key={index}
@@ -69,7 +69,7 @@ export function Testimonials() {
           </div>
 
           {/* Right: Content Container */}
-          <div className="flex-1 space-y-10 relative z-10">
+          <div className="flex-1 space-y-10 relative z-10 order-1 lg:order-2">
             <h2 className="text-[35px] font-serif text-[#1A1A1A] leading-tight">{t('testimonials.title')}</h2>
 
             <div className="space-y-10">
