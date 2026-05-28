@@ -357,7 +357,7 @@
           <tag>Skincare</tag>
           <date>15 de Maio, 2024</date>
           <author>Elena Rossi</author>
-          <img>https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&amp;fit=crop&amp;q=80&amp;w=400&amp;h=250</img>
+          <img>src/assets/images/skillful-cosmetology.jpg</img>
         </post>
         <post id="2">
           <title>Entendendo o Retinol: Mito vs. Realidade</title>
@@ -365,7 +365,7 @@
           <tag>Ingredientes</tag>
           <date>10 de Maio, 2024</date>
           <author>Julianne Thorne</author>
-          <img>https://images.unsplash.com/photo-1590156221170-28a1d2e41723?auto=format&amp;fit=crop&amp;q=80&amp;w=400&amp;h=250</img>
+          <img>src/assets/images/ultrasonic-massager.jpg</img>
         </post>
         <post id="3">
           <title>O Que é 'Skin Cycling' e Realmente Funciona?</title>
@@ -373,7 +373,7 @@
           <tag>Tendências de Beleza</tag>
           <date>05 de Maio, 2024</date>
           <author>Marcus Sterling</author>
-          <img>https://images.unsplash.com/photo-1512496011961-aa0e434dc439?auto=format&amp;fit=crop&amp;q=80&amp;w=400&amp;h=250</img>
+          <img>src/assets/images/glass-bottles.jpg</img>
         </post>
       </section>
 
