@@ -1,0 +1,399 @@
+{
+  "whatsapp_hover": "Fale com nossos especialistas",
+  "nav": {
+    "home": "Início",
+    "about": "Sobre Nós",
+    "services": "Serviços",
+    "blog": "Blog",
+    "contact": "Contato",
+    "customer_support": "Suporte ao Cliente",
+    "email_support": "Suporte por E-mail"
+  },
+  "footer": {
+    "description": "Cuidado especializado para a sua pele com tecnologia de ponta e atendimento humanizado.",
+    "contact_title": "Informações de Contato",
+    "services_title": "Nossos Serviços",
+    "links_title": "Links Rápidos",
+    "email_label": "E-mail",
+    "phone_label": "Telefone",
+    "copyright": "Copyright © 2026 Cutisure por TBWBthemes. Todos os direitos reservados.",
+    "services_list": ["Tratamento Facial", "Manicure e Pedicure", "Tratamento Labial", "Preenchimento e Botox", "Cuidados Corporais"],
+    "links_list": ["Sobre Nós", "Liderança", "Carreiras", "Notícias e Artigos", "Aviso Legal"]
+  },
+  "hero": {
+    "title_line_1": "Cuide da sua Pele,",
+    "title_line_2": "Revele sua Beleza",
+    "description": "Excelência em cuidados com a pele e tratamentos estéticos. Combinamos expertise médica com atendimento de luxo para ajudar você a se sentir confiante.",
+    "cta": "Agende uma Consulta",
+    "video_title": "Dermatologistas Falam: Mitos vs Fatos sobre Skincare",
+    "stats": {
+      "text": "Usuários Brilhando com",
+      "labels": "Confiança"
+    }
+  },
+  "features": {
+    "modern_tech": {
+      "title": "Tecnologia Moderna",
+      "desc": "Utilizando equipamentos de última geração para resultados precisos e máximo benefício para a saúde da pele."
+    },
+    "expert": {
+      "title": "Especialista Certificado",
+      "desc": "Nossa equipe de dermatologistas certificados traz anos de experiência clínica para cada tratamento."
+    },
+    "consultation": {
+      "title": "Consulta com nosso Médico, Hoje!",
+      "desc": "Comece sua jornada para uma pele mais saudável com uma avaliação profissional de nossos especialistas."
+    }
+  },
+  "expert_banner": {
+    "title": "Dermatologistas Especialistas Dedicados à Sua Beleza",
+    "desc_1": "Excelência clínica e tecnologia de ponta para resultados surpreendentes.",
+    "desc_2": "Cuidando da sua pele com paixão e precisão."
+  },
+  "services_preview": {
+    "badge": "NOSSOS SERVIÇOS",
+    "title": "Eleve sua Pele com Tratamentos Especializados",
+    "description": "Tratamentos personalizados para realçar sua autoconfiança e saúde dermatológica.",
+    "service_desc": "O seu bem-estar é o nosso compromisso. Tratamentos personalizados para as suas necessidades únicas.",
+    "service_list": {
+      "face": "Tratamento Facial",
+      "filler": "Preenchimento e Botox",
+      "plastic": "Cirurgia Plástica",
+      "body": "Tratamento Corporal",
+      "breast": "Implante de Mama",
+      "lip": "Aumento de Lábios"
+    }
+  },
+  "why_choose_us": {
+    "badge": "POR QUE NOS ESCOLHER",
+    "title": "Onde o Cuidado Profissional Encontra a Pele Saudável",
+    "description": "Oferecemos os tratamentos mais avançados com foco total na segurança e no bem-estar do paciente.",
+    "benefit_desc": "Segurança e precisão em cada detalhe do seu atendimento especializado.",
+    "benefits": {
+      "safe": "Tratamentos Seguros",
+      "equip": "Equipamentos e Instalações de Ponta",
+      "support": "Suporte Premium 24/7"
+    },
+    "stats": "Pacientes Satisfeitos"
+  },
+  "cta_banner": {
+    "title": "Ganhe uma Consulta Gratuita",
+    "description": "Dê o primeiro passo para a pele dos seus sonhos com nossos especialistas.",
+    "title_large": "Sua Jornada para uma Pele Melhor Começa Aqui",
+    "description_large": "Cuidados clínicos especializados adaptados às suas necessidades únicas de pele. Junte-se à nossa comunidade."
+  },
+  "about_page": {
+    "hero": {
+      "badge": "Nossa História",
+      "title_1": "Redefinindo a",
+      "title_2": "Excelência Clínica",
+      "title_3": "na Estética",
+      "description": "Fundada em 2012, a Clínica Cutisure nasceu de uma visão simples: unir a dermatologia clínica à experiência de um spa de luxo.",
+      "team_label": "Conheça nossa equipe premiada de mais de 15 especialistas",
+      "years": "Anos de História"
+    },
+    "values": {
+      "innovation": {
+        "title": "Inovação",
+        "desc": "Investimos na mais recente tecnologia aprovada pela ANVISA para garantir os melhores resultados clínicos."
+      },
+      "precision": {
+        "title": "Precisão",
+        "desc": "Cada pele é única. Nossos tratamentos são altamente personalizados para suas necessidades específicas."
+      },
+      "care": {
+        "title": "Cuidado",
+        "desc": "Priorizamos a segurança e o conforto do paciente acima de tudo, criando um santuário para sua pele."
+      },
+      "excellence": {
+        "title": "Excelência",
+        "desc": "Nossos especialistas estão em constante treinamento nas técnicas estéticas mais avançadas."
+      }
+    },
+    "team": {
+      "badge": "Expertise em que Você Pode Confiar",
+      "title": "Conheça os Especialistas",
+      "cta": "Junte-se à nossa comunidade",
+      "roles": {
+        "director": "Diretora Médica",
+        "esthetician": "Esteticista de Elite",
+        "specialist": "Especialista em Laser"
+      }
+    }
+  },
+  "services_page": {
+    "hero": {
+      "badge": "Skincare Avançado",
+      "title_1": "Tratamentos de Precisão para",
+      "title_2": "Cada Problema de Pele",
+      "description": "Nosso menu de serviços foi projetado para entregar resultados visíveis e de nível médico com total conforto e luxo.",
+      "cta": "Agendar uma Consulta"
+    },
+    "categories": {
+      "facial": "Tratamentos Faciais",
+      "medical": "Estética Médica",
+      "laser": "Laser e Performance"
+    },
+    "labels": {
+      "duration": "Duração",
+      "min": "min"
+    },
+    "service_details": {
+      "hydrafacial": {
+        "title": "HydraFacial Signature",
+        "desc": "Clinicamente comprovado para desintoxicar e hidratar a pele com resultados imediatos.",
+        "price": "R$ 995"
+      },
+      "medical_facial": {
+        "title": "Facial Médico Personalizado",
+        "desc": "Adaptado às suas preocupações específicas de pele usando produtos de grau farmacêutico.",
+        "price": "R$ 875"
+      },
+      "injectables": {
+        "title": "Injetáveis e Preenchimentos",
+        "desc": "Administrados criteriosamente por especialistas para melhorias naturais.",
+        "price": "Sob Consulta"
+      },
+      "microneedling": {
+        "title": "Microagulhamento com PRP",
+        "desc": "Maximize a regeneração da pele e a produção de colágeno.",
+        "price": "R$ 2.250"
+      },
+      "laser_hair": {
+        "title": "Depilação a Laser",
+        "desc": "Tecnologia de laser de última geração para redução de pelos indolor e permanente.",
+        "price": "R$ 750"
+      },
+      "ipl": {
+        "title": "Fotofacial IPL",
+        "desc": "Trate danos solares, vermelhidão e tom de pele irregular com precisão.",
+        "price": "R$ 1.500"
+      }
+    },
+    "actions": {
+      "from": "A partir de",
+      "by_consult": "Sob Consulta",
+      "book_now": "Agende Agora"
+    },
+    "footer_note": {
+      "title": "Não tem certeza do que precisa?",
+      "desc": "Nossos especialistas oferecem consultas gratuitas de 15 minutos para ajudar você a encontrar o caminho perfeito.",
+      "items": ["Cuidado Personalizado", "Excelência Clínica", "Experiência de Luxo"]
+    }
+  },
+  "trust": {
+    "badge": "Destaque em e Parcerias com"
+  },
+  "about_preview": {
+    "badge": "Sobre a Cutisure",
+    "title": "Descubra o Brilho Real de uma Pele Saudável e Bonita",
+    "quote": "Cuidado especializado com resultados comprovados para realçar sua beleza natural.",
+    "desc_1": "Fundada com paixão pela estética de precisão, a Clínica Cutisure combina tecnologia médica com um ambiente de spa de luxo. Nossa missão é realçar sua beleza através de jornadas personalizadas.",
+    "desc_2": "Utilizamos os equipamentos mais modernos do mercado para garantir segurança e excelência em cada procedimento realizado em nossa clínica.",
+    "cta": "Mais Sobre Nós",
+    "stats": {
+      "years": "15+",
+      "label": "Anos de Experiência"
+    }
+  },
+  "how_it_works": {
+    "badge": "COMO FUNCIONA",
+    "title": "Trate sua pele com o que há de melhor",
+    "description": "Nossa metodologia exclusiva garante que cada paciente receba o tratamento ideal para seu tipo de pele e objetivos específicos.",
+    "steps": {
+      "step_label": "PASSO",
+      "s1_title": "Consulta",
+      "s1_desc": "Uma avaliação detalhada para entender as necessidades únicas da sua pele.",
+      "s2_title": "Análise",
+      "s2_desc": "Utilizamos tecnologia de ponta para analisar profundamente a saúde dermatológica.",
+      "s3_title": "Tratamento",
+      "s3_desc": "Procedimentos realizados por especialistas com foco total em resultados e conforto.",
+      "s4_title": "Cuidado Contínuo",
+      "s4_desc": "Acompanhamento pós-tratamento para manter os resultados e a saúde da pele."
+    }
+  },
+  "testimonials": {
+    "title": "O que dizem sobre nós",
+    "roles": {
+      "model": "Modelo / Artista",
+      "designer": "Designer Sênior"
+    }
+  },
+  "faq": {
+    "badge": "TEM DÚVIDAS?",
+    "title": "Perguntas Frequentes",
+    "description": "Encontre respostas para as principais dúvidas sobre nossos atendimentos e procedimentos.",
+    "still_questions": {
+      "title": "Ainda tem perguntas?",
+      "desc": "Nossa equipe está pronta para ajudar você com qualquer informação adicional."
+    },
+    "items": {
+      "q1": "Por que escolher nossa clínica?",
+      "a1": "Oferecemos uma combinação única de expertise médica, tecnologia de ponta e um ambiente acolhedor e luxuoso.",
+      "q2": "Como funcionam os atendimentos?",
+      "a2": "Cada atendimento começa com uma consulta detalhada, seguida de um plano de tratamento personalizado para seus objetivos.",
+      "q3": "Posso participar da escolha dos procedimentos?",
+      "a3": "Sim, acreditamos em um cuidado colaborativo onde explicamos todas as opções para decidirmos juntos o melhor caminho.",
+      "q4": "Os tratamentos são acessíveis?",
+      "a4": "Oferecemos diversos pacotes e planos que se adaptam a diferentes necessidades, mantendo sempre o padrão premium.",
+      "q5": "Quais as formas de pagamento disponíveis?",
+      "a5": "Aceitamos os principais cartões de crédito, parcelamento e outras opções para facilitar sua jornada de cuidado."
+    }
+  },
+  "pricing_preview": {
+    "badge": "ESCOLHA SEU PACOTE",
+    "title": "Cuide da sua Pele, Realce sua Beleza",
+    "desc": "Pacotes pensados para oferecer o melhor custo-benefício em tratamentos de alta performance.",
+    "cta": "Pacote Personalizado",
+    "include": "O pacote inclui:",
+    "purchase": "Comprar Agora",
+    "period": "/ Sessão",
+    "plans": {
+      "starter": "Plano Inicial",
+      "starter_price": "R$ 395",
+      "premium": "Plano Premium",
+      "premium_price": "R$ 495",
+      "luxury": "Plano Luxo",
+      "luxury_price": "R$ 995"
+    },
+    "features": {
+      "checkup": "Check-up Geral",
+      "consult": "Consulta de Pele",
+      "analysis": "Análise Básica de Pele",
+      "advice": "Conselhos de Skincare",
+      "advanced": "Tratamento Avançado"
+    },
+    "plan_desc": "Expertise clínica combinada com cuidado personalizado para a saúde da sua pele."
+  },
+  "video_section": {
+    "title_1": "A Beleza Começa Amando",
+    "title_2": "Sua Própria Pele",
+    "description": "Cuidado especializado e tecnologia avançada para realçar sua essência única e saudável.",
+    "cta": "Descubra Mais"
+  },
+  "appointment": {
+    "badge": "MARQUE UMA CONSULTA",
+    "title": "Dê o Primeiro Passo com Confiança",
+    "description": "Agende seu horário e comece sua transformação com nossos especialistas em dermatologia e estética.",
+    "opening_hours": "Horário de Funcionamento:",
+    "hours": {
+      "mon_fri": "08:00 – 20:00",
+      "sat": "08:00 – 15:00"
+    },
+    "days": {
+      "mon_fri": "Segunda – Sexta",
+      "sat": "Sábado",
+      "sun": "Domingo",
+      "closed": "Fechado"
+    },
+    "form": {
+      "labels": {
+        "name": "Nome",
+        "email": "E-mail",
+        "phone": "Telefone",
+        "date": "Data",
+        "time": "Horário",
+        "message": "Mensagem"
+      },
+      "placeholders": {
+        "name": "Seu nome completo",
+        "email": "Seu melhor e-mail",
+        "phone": "Seu número de telefone",
+        "date": "DD - MM - AAAA",
+        "time": "Hora desejada",
+        "message": "Como podemos ajudar?"
+      },
+      "submit": "Marcar Consulta"
+    },
+    "cta_support": "Contatar Suporte"
+  },
+  "blog_page": {
+    "hero": {
+      "badge": "Conhecimento Especializado",
+      "title_1": "O Diário",
+      "title_2": "Cutisure",
+      "description": "Insights clínicos, rotinas de skincare e as últimas inovações em beleza curadas por nossa equipe de especialistas."
+    },
+    "tabs": {
+      "all": "Tudo",
+      "skincare": "Skincare",
+      "treatments": "Tratamentos",
+      "wellness": "Bem-estar",
+      "ingredients": "Ingredientes",
+      "trends": "Tendências de Beleza"
+    },
+    "posts": {
+      "p1": {
+        "title": "O Guia Definitivo para Cuidados Pré-Verão",
+        "excerpt": "Preparar sua pele para o sol começa semanas antes das férias. Conheça nossas dicas clínicas."
+      },
+      "p2": {
+        "title": "Entendendo o Retinol: Mito vs. Realidade",
+        "excerpt": "Desmistificando um dos ingredientes anti-idade mais poderosos do mundo. É ideal para você?"
+      },
+      "p3": {
+        "title": "O Que é 'Skin Cycling' e Realmente Funciona?",
+        "excerpt": "Explorando a rotina viral de skincare sob uma perspectiva clínica e científica."
+      }
+    },
+    "newsletter": {
+      "title": "Junte-se ao nosso círculo de beleza",
+      "desc": "Assine nossa newsletter para ofertas exclusivas, atualizações clínicas e dicas de skincare entregues em sua caixa de entrada.",
+      "placeholder": "Seu endereço de e-mail",
+      "button": "Assinar",
+      "disclaimer": "Sem spam. Apenas ciência da pele. Cancele a qualquer momento."
+    },
+    "actions": {
+      "read_more": "Ler Mais",
+      "by": "Por"
+    }
+  },
+  "pricing_page": {
+    "title": "Preços",
+    "coming_soon": "Em breve..."
+  },
+  "contact_page": {
+    "hero": {
+      "title": "Contate-nos",
+      "description": "Tem dúvidas ou está pronto para começar sua jornada? Nossa equipe está aqui para fornecer o suporte e a expertise que você precisa.",
+      "breadcrumb": {
+        "home": "Início",
+        "contact": "Contato"
+      }
+    },
+    "form": {
+      "badge": "Ar",
+      "sub_badge": "Beleza Pura",
+      "title": "Envie-nos uma Mensagem",
+      "description": "Preencha o formulário abaixo e nossos especialistas entrarão em contato com você em até 24 horas.",
+      "labels": {
+        "first_name": "Nome",
+        "last_name": "Sobrenome",
+        "email": "Endereço de E-mail",
+        "phone": "Telefone",
+        "message": "Mensagem"
+      },
+      "placeholders": {
+        "first_name": "Seu primeiro nome",
+        "last_name": "Seu sobrenome",
+        "email": "Seu endereço de e-mail",
+        "phone": "Seu número de telefone",
+        "message": "Escreva sua mensagem aqui..."
+      },
+      "submit": "Enviar Mensagem"
+    },
+    "info": {
+      "contact": {
+        "title": "Nosso Contato",
+        "phone_1": "Telefone",
+        "phone_2": "Suporte"
+      },
+      "location": {
+        "title": "Nossa Localização"
+      },
+      "mail": {
+        "title": "Suporte por E-mail"
+      }
+    }
+  }
+}

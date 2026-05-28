@@ -1,0 +1,399 @@
+{
+  "whatsapp_hover": "Chat with our Specialists",
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "blog": "Blog",
+    "contact": "Contact",
+    "customer_support": "Customer Support",
+    "email_support": "Email Support"
+  },
+  "footer": {
+    "description": "Risus eleifend erat placerat tempor nisl mattis nibh turpis natoqe facilisis pellentesque eu.",
+    "contact_title": "Contact Info",
+    "services_title": "Our Services",
+    "links_title": "Quick Links",
+    "email_label": "Email",
+    "phone_label": "Phone",
+    "copyright": "Copyright © 2026 Cutisure by TBWBthemes. All rights reserved.",
+    "services_list": ["Face Treatment", "Manicure & Pedicure", "Lips Treatment", "Filler & Botox", "Body Care"],
+    "links_list": ["About Us", "Leadership", "Careers", "News & Article", "Legal Notice"]
+  },
+  "hero": {
+    "title_line_1": "Nurture Your Skin,",
+    "title_line_2": "Reveal Your Beauty",
+    "description": "Excellence in skincare and aesthetic treatments. We combine medical expertise with luxury care to help you feel confident in your own skin.",
+    "cta": "Book An Appointment",
+    "video_title": "Dermatologist Talks: Skincare Myths vs Facts",
+    "stats": {
+      "text": "User Glow with",
+      "labels": "Confidents"
+    }
+  },
+  "features": {
+    "modern_tech": {
+      "title": "Modern Technology",
+      "desc": "Utilizing state-of-the-art equipment for precise results and maximum skin health benefit."
+    },
+    "expert": {
+      "title": "Certified Expert",
+      "desc": "Our team of board-certified dermatologists brings years of clinical experience to every treatment."
+    },
+    "consultation": {
+      "title": "Consultation with Our Doctor, Today!",
+      "desc": "Start your journey to healthier skin with a professional assessment from our specialists."
+    }
+  },
+  "expert_banner": {
+    "title": "Expert Skin Doctors Dedicated to Your Beauty",
+    "desc_1": "Scelerisque non suspendisse conubia tincidunt efficitur nibh posuere.",
+    "desc_2": "Habitant lacinia etiam venenatis magna."
+  },
+  "services_preview": {
+    "badge": "OUR SERVICES",
+    "title": "Elevate Your Skin with Expert Treatment",
+    "description": "Ultricies auctor aptent imperdiet venenatis volutpat ornare ante enim vel nec facilisis. Ac tempor quisque egestas molestie tortor.",
+    "service_desc": "Leo purus eu orci tincidunt torquent. Lectus nibh aliquam vitae interdum a penatibus.",
+    "service_list": {
+      "face": "Face Treatment",
+      "filler": "Filler & Botox",
+      "plastic": "Plastic Surgery",
+      "body": "Body Treatment",
+      "breast": "Breast Implant",
+      "lip": "Lip Augmentation"
+    }
+  },
+  "why_choose_us": {
+    "badge": "WHY CHOOSE US",
+    "title": "Where Professional Care Meets Healthy Skin",
+    "description": "Integer odio orci senectus porttitor dignissim pellentesque condimentum tincidunt lacus habitant dis. Facilisis lacinia suspendisse inceptos diam curabitur tristique maecenas torquent egestas luctus aenean commodo.",
+    "benefit_desc": "Ligula in magnis commodo sociosqu facilisi leo suspendisse libero netus. Dis bibendum mi est ornare quam per eu.",
+    "benefits": {
+      "safe": "Safe Treatments",
+      "equip": "Advanced Equipment & Facilities",
+      "support": "24/7 Premium Support"
+    },
+    "stats": "Satisfied Patients"
+  },
+  "cta_banner": {
+    "title": "Get Free Consultation",
+    "description": "Egestas taciti vulputate adipiscing purus posuere suspendisse lectus luctus.",
+    "title_large": "Your Journey to Better Skin Starts Here",
+    "description_large": "Expert clinical care tailored to your unique skin needs. Join our community of healthy skin lovers."
+  },
+  "about_page": {
+    "hero": {
+      "badge": "Our Story",
+      "title_1": "Redefining",
+      "title_2": "Clinical Excellence",
+      "title_3": "In Beauty",
+      "description": "Founded in 2012, Cutisure Beauty Clinic was born from a simple vision: to bridge the gap between clinical dermatology and a luxury spa experience.",
+      "team_label": "Meet our award-winning team of 15+ specialists",
+      "years": "Years of History"
+    },
+    "values": {
+      "innovation": {
+        "title": "Innovation",
+        "desc": "We invest in the latest FDA-approved technology to ensure the best clinical outcomes."
+      },
+      "precision": {
+        "title": "Precision",
+        "desc": "Every skin is unique. Our treatments are highly personalized to your specific cellular needs."
+      },
+      "care": {
+        "title": "Care",
+        "desc": "We prioritize patient safety and comfort above all else, creating a sanctuary for your skin."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "desc": "Our specialists are continuously trained in the most advanced aesthetic techniques."
+      }
+    },
+    "team": {
+      "badge": "Expertise You Can Trust",
+      "title": "Meet the Specialists",
+      "cta": "Join our skin community",
+      "roles": {
+        "director": "Medical Director",
+        "esthetician": "Elite Esthetician",
+        "specialist": "Laser Specialist"
+      }
+    }
+  },
+  "services_page": {
+    "hero": {
+      "badge": "Advanced Skincare",
+      "title_1": "Precision Treatments for",
+      "title_2": "Every Skin Concern",
+      "description": "Our menu of services is designed to deliver visible, medical-grade results while ensuring absolute comfort and luxury at Cutisure Beauty Clinic.",
+      "cta": "Book a Consultation"
+    },
+    "categories": {
+      "facial": "Facial Treatments",
+      "medical": "Medical Aesthetics",
+      "laser": "Laser & Performance"
+    },
+    "labels": {
+      "duration": "Duration",
+      "min": "mins"
+    },
+    "service_details": {
+      "hydrafacial": {
+        "title": "Signature HydraFacial",
+        "desc": "Clinically proven to detoxify and hydrate the skin with immediate results.",
+        "price": "$199"
+      },
+      "medical_facial": {
+        "title": "Customized Medical Facial",
+        "desc": "Tailored to your specific skin concerns using pharmaceutical-grade products.",
+        "price": "$175"
+      },
+      "injectables": {
+        "title": "Injectables & Dermal Fillers",
+        "desc": "Expertly administered by board-certified specialists for natural enhancements.",
+        "price": "By Consult"
+      },
+      "microneedling": {
+        "title": "Microneedling with PRP",
+        "desc": "Maximize skin regeneration and collagen production.",
+        "price": "$450"
+      },
+      "laser_hair": {
+        "title": "Laser Hair Removal",
+        "desc": "State-of-the-art laser technology for painless and permanent hair reduction.",
+        "price": "$150"
+      },
+      "ipl": {
+        "title": "IPL Photofacial",
+        "desc": "Address sun damage, redness, and uneven skin tone precisely.",
+        "price": "$300"
+      }
+    },
+    "actions": {
+      "from": "From",
+      "by_consult": "By Consult",
+      "book_now": "Book Now"
+    },
+    "footer_note": {
+      "title": "Not sure what you need?",
+      "desc": "Our skin specialists offer complimentary 15-minute consultations to help you find the perfect treatment path for your goals.",
+      "items": ["Personalized Care", "Clinical Excellence", "Luxury Experience"]
+    }
+  },
+  "trust": {
+    "badge": "Featured In & Partnership With"
+  },
+  "about_preview": {
+    "badge": "About Cutisure",
+    "title": "Discover the True Glow of Healthy and Beautiful Skin",
+    "quote": "Eget ligula mattis donec orci sem faucibus gravida non felis magna nascetuer. Faucibus hendrerit sed ex ultrices ornare vel molestie libero pulvinar mattis donec faucibus.",
+    "desc_1": "Founded with a passion for precise aesthetics, Cutisure Beauty Clinic combines medical-grade technology with a luxury spa environment. Our mission is to enhance your natural beauty through personalized skin journeys.",
+    "desc_2": "Curabitur aptent condimentum vehicula lobortis commodo torquent aliquet. Volutpat vitae potenti et placerat sapien nisl nostra mi.",
+    "cta": "More About Us",
+    "stats": {
+      "years": "15+",
+      "label": "Years Of Experience"
+    }
+  },
+  "how_it_works": {
+    "badge": "HOW IT WORKS",
+    "title": "Treat your skin with the best treatment",
+    "description": "Ultricies auctor aptent imperdiet venenatis volutpat ornare ante enim vel nec facilisis. Ac tempor quisque egestas molestie tortor.",
+    "steps": {
+      "step_label": "STEP",
+      "s1_title": "Consultation",
+      "s1_desc": "Fermentum quam a sapien at iaculis. Natoque amet hendrerit et turpis aenean.",
+      "s2_title": "Analysis",
+      "s2_desc": "Fermentum quam a sapien at iaculis. Natoque amet hendrerit et turpis aenean.",
+      "s3_title": "Treatment",
+      "s3_desc": "Fermentum quam a sapien at iaculis. Natoque amet hendrerit et turpis aenean.",
+      "s4_title": "Ongoing Care",
+      "s4_desc": "Fermentum quam a sapien at iaculis. Natoque amet hendrerit et turpis aenean."
+    }
+  },
+  "testimonials": {
+    "title": "What they say about us",
+    "roles": {
+      "model": "Model / Artist",
+      "designer": "Senior Designer"
+    }
+  },
+  "faq": {
+    "badge": "HAVE QUESTIONS?",
+    "title": "Frequently Asked Questions",
+    "description": "Litora augue id suspendisse nascetur fermentum finibus lacinia tortor aliquet aliquam sagittis.",
+    "still_questions": {
+      "title": "Still Have Questions?",
+      "desc": "Aliquam nullam nisl dolor congue a feugiat ligula cursus quisque maximus."
+    },
+    "items": {
+      "q1": "Why choose us for your projects?",
+      "a1": "Fusce netus ligula arcu pretium enim elit interdum dolor nisl ridiculus aptent. Vitae ut conubia nostra eros ligula justo metus auctor luctus hendrerit interdum.",
+      "q2": "How we provide services for you?",
+      "a2": "Litora augue id suspendisse fermentum finibus lacinia tortor aliquet aliquam sagittis. Mauris sit amet ligula id eros ullamcorper interdum sed vel metus.",
+      "q3": "About content creation, can i participate in the idea?",
+      "a3": "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Viva mus magna justo, lacinia eget consectetur sed, convallis at tellus.",
+      "q4": "How we are affordable than others?",
+      "a4": "Pellentesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Sed porttitor lectus nibh.",
+      "q5": "What payment methods are available?",
+      "a5": "Donec rutrum congue leo eget malesuada. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet."
+    }
+  },
+  "pricing_preview": {
+    "badge": "CHOOSE PACKAGE",
+    "title": "Care for Your Skin, Enhance Your Beauty",
+    "desc": "Sem lorem eget tempor taciti felis rutrum eleifend est cras montes. Auctor leo dictumst duis dui velit magnis lorem eleifend.",
+    "cta": "Custom Package",
+    "include": "Package include:",
+    "purchase": "Purchase Now",
+    "period": "/ Session",
+    "plans": {
+      "starter": "Starter Plan",
+      "starter_price": "$79",
+      "premium": "Premium Plan",
+      "premium_price": "$99",
+      "luxury": "Luxury Plan",
+      "luxury_price": "$199"
+    },
+    "features": {
+      "checkup": "General Checkup",
+      "consult": "Skin Consultation",
+      "analysis": "Basic Skin Analysis",
+      "advice": "Skincare Advice",
+      "advanced": "Advanced Treatment"
+    },
+    "plan_desc": "Clinical expertise combined with personalized care for your skin's health."
+  },
+  "video_section": {
+    "title_1": "Beauty Starts with Loving",
+    "title_2": "Your Own Skin",
+    "description": "Fermentum dignissim turpis pellentesque nisi sociosqu. Si dui faucibus egestas condimentum vehicula. Ultricies eu conubia letius imperdiet arcu penatibus.",
+    "cta": "Discover More"
+  },
+  "appointment": {
+    "badge": "MAKE AN APPOINTMENT",
+    "title": "Step Into Your Day with Confidence",
+    "description": "Magna massa eleifend convallis facilisi a leo ultrices. Torquent rutrum class scelerisque eget pharetra pellentesque efficitur. Aliquam lacus felis duis turpis imperdiet ad hac.",
+    "opening_hours": "Opening Hours:",
+    "hours": {
+      "mon_fri": "08.00 AM – 20.00 PM",
+      "sat": "08.00 AM – 15.00 PM"
+    },
+    "days": {
+      "mon_fri": "Monday – Friday",
+      "sat": "Saturday",
+      "sun": "Sunday",
+      "closed": "Closed"
+    },
+    "form": {
+      "labels": {
+        "name": "Name",
+        "email": "Email Address",
+        "phone": "Phone",
+        "date": "Date",
+        "time": "Time",
+        "message": "Message"
+      },
+      "placeholders": {
+        "name": "Your full name",
+        "email": "Your email",
+        "phone": "Phone number",
+        "date": "DD - MM - YYYY",
+        "time": "Time",
+        "message": "Your message"
+      },
+      "submit": "Make Appointment"
+    },
+    "cta_support": "Contact Support"
+  },
+  "blog_page": {
+    "hero": {
+      "badge": "Insider Knowledge",
+      "title_1": "The Cutisure",
+      "title_2": "Journal",
+      "description": "Clinical insights, skincare routines, and the latest beauty innovations curated by our expert team."
+    },
+    "tabs": {
+      "all": "All",
+      "skincare": "Skincare",
+      "treatments": "Treatments",
+      "wellness": "Wellness",
+      "ingredients": "Ingredients",
+      "trends": "Beauty Trends"
+    },
+    "posts": {
+      "p1": {
+        "title": "The Ultimate Guide to Pre-Summer Skincare",
+        "excerpt": "Preparing your skin for the sun starts weeks before your vacation. Learn our clinical tips for a safe glow."
+      },
+      "p2": {
+        "title": "Understanding Retinol: Myth vs. Reality",
+        "excerpt": "Demystifying one of the most powerful anti-aging ingredients in the world. Is it right for your skin type?"
+      },
+      "p3": {
+        "title": "What is 'Skin Cycling' and Does It Actually Work?",
+        "excerpt": "Exploring the viral skincare routine from a clinical perspective. We dive deep into the science of recovery."
+      }
+    },
+    "newsletter": {
+      "title": "Join our beauty circle",
+      "desc": "Subscribe to our newsletter for exclusive offers, clinical updates, and skincare tips delivered to your inbox.",
+      "placeholder": "Your email address",
+      "button": "Subscribe",
+      "disclaimer": "No spam. Just skin science. Unsubscribe anytime."
+    },
+    "actions": {
+      "read_more": "Read More",
+      "by": "By"
+    }
+  },
+  "pricing_page": {
+    "title": "Pricing",
+    "coming_soon": "Coming Soon..."
+  },
+  "contact_page": {
+    "hero": {
+      "title": "Contact Us",
+      "description": "Have questions or ready to start your skin journey? Our team is here to provide the support and expertise you need.",
+      "breadcrumb": {
+        "home": "Home",
+        "contact": "Contact Us"
+      }
+    },
+    "form": {
+      "badge": "Air",
+      "sub_badge": "Pure Beauty",
+      "title": "Send Us a Message",
+      "description": "Fill out the form below and our specialists will get back to you within 24 hours.",
+      "labels": {
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "email": "Email Address",
+        "phone": "Phone",
+        "message": "Message"
+      },
+      "placeholders": {
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "email": "Your email address",
+        "phone": "Your phone number",
+        "message": "Write your message here..."
+      },
+      "submit": "Send Message"
+    },
+    "info": {
+      "contact": {
+        "title": "Our Contact",
+        "phone_1": "Phone",
+        "phone_2": "Support"
+      },
+      "location": {
+        "title": "Our Location"
+      },
+      "mail": {
+        "title": "Email Support"
+      }
+    }
+  }
+}

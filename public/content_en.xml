@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- GLOBAL SETTINGS                                     -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <global_settings>
+    <colors>
+      <primary>#1F8D92</primary>
+      <secondary>#D4E95F</secondary>
+      <background>#FFFFFF</background>
+      <text>#333333</text>
+    </colors>
+    <pages>
+      <page id="home" name="Home" url="/" />
+      <page id="about" name="About Us" url="/about" />
+      <page id="services" name="Our Services" url="/services" />
+      <page id="blog" name="Blog" url="/blog" />
+      <page id="contact" name="Contact" url="/contact" />
+    </pages>
+  </global_settings>
+
+  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- PAGES CONTENT                                       -->
+  <!-- ═══════════════════════════════════════════════════ -->
+  <pages_content>
+
+    <!-- ─────────────────────────────────────────────── -->
+    <!-- HOME PAGE                                       -->
+    <!-- ─────────────────────────────────────────────── -->
+    <page id="home">
+
+      <section name="hero">
+        <title1>Nurture Your Skin,</title1>
+        <title2>Reveal Your Beauty</title2>
+        <description>Excellence in skincare and aesthetic treatments. We combine medical expertise with luxury care to help you feel confident in your own skin.</description>
+        <video_title>Dermatologist Talks: Skincare Myths vs Facts</video_title>
+        <stats_count>23K+</stats_count>
+      </section>
+
+      <feature id="modern_tech">
+        <title>Modern Technology</title>
+        <description>Utilizing state-of-the-art equipment for precise results and maximum skin health benefit.</description>
+      </feature>
+      <feature id="expert">
+        <title>Certified Expert</title>
+        <description>Our team of board-certified dermatologists brings years of clinical experience to every treatment.</description>
+      </feature>
+      <feature id="consultation">
+        <title>Consultation with Our Doctor, Today!</title>
+        <description>Start your journey to healthier skin with a professional assessment from our specialists.</description>
+        <phone>+1 (234) 567-8910</phone>
+      </feature>
+
+      <section name="expert_banner">
+        <title>Expert Skin Doctors Dedicated to Your Beauty</title>
+        <desc1>Scelerisque non suspendisse conubia tincidunt efficitur nibh posuere.</desc1>
+        <desc2>Habitant lacinia etiam venenatis magna.</desc2>
+      </section>
+
+      <section name="about_preview">
+        <title>Discover the True Glow of Healthy and Beautiful Skin</title>
+        <quote>Eget ligula mattis donec orci sem faucibus gravida non felis magna nascetuer. Faucibus hendrerit sed ex ultrices ornare vel molestie libero pulvinar mattis donec faucibus.</quote>
+        <desc1>Founded with a passion for precise aesthetics, Cutisure Beauty Clinic combines medical-grade technology with a luxury spa environment. Our mission is to enhance your natural beauty through personalized skin journeys.</desc1>
+        <desc2>Curabitur aptent condimentum vehicula lobortis commodo torquent aliquet. Volutpat vitae potenti et placerat sapien nisl nostra mi.</desc2>
+        <years_count>15+</years_count>
+      </section>
+
+      <section name="services_preview">
+        <title>Elevate Your Skin with Expert Treatment</title>
+        <description>Ultricies auctor aptent imperdiet venenatis volutpat ornare ante enim vel nec facilisis. Ac tempor quisque egestas molestie tortor.</description>
+        <service_desc>Leo purus eu orci tincidunt torquent. Lectus nibh aliquam vitae interdum a penatibus.</service_desc>
+        <service id="face">Face Treatment</service>
+        <service id="filler">Filler &amp; Botox</service>
+        <service id="plastic">Plastic Surgery</service>
+        <service id="body">Body Treatment</service>
+        <service id="breast">Breast Implant</service>
+        <service id="lip">Lip Augmentation</service>
+      </section>
+
+      <section name="why_choose_us">
+        <title>Where Professional Care Meets Healthy Skin</title>
+        <description>Integer odio orci senectus porttitor dignissim pellentesque condimentum tincidunt lacus habitant dis. Facilisis lacinia suspendisse inceptos diam curabitur tristique maecenas torquent egestas luctus aenean commodo.</description>
+        <benefit_desc>Ligula in magnis commodo sociosqu facilisi leo suspendisse libero netus. Dis bibendum mi est ornare quam per eu.</benefit_desc>
+        <benefit>Safe Treatments</benefit>
+        <benefit>Advanced Equipment &amp; Facilities</benefit>
+        <benefit>24/7 Premium Support</benefit>
+        <stats_count>5,000+</stats_count>
+      </section>
+
+      <section name="cta_banner">
+        <title>Get Free Consultation</title>
+        <description>Egestas taciti vulputate adipiscing purus posuere suspendisse lectus luctus.</description>
+        <title_large>Your Journey to Better Skin Starts Here</title_large>
+        <description_large>Expert clinical care tailored to your unique skin needs. Join our community of healthy skin lovers.</description_large>
+      </section>
+
+      <section name="how_it_works">
+        <title>Treat your skin with the best treatment</title>
+        <description>Ultricies auctor aptent imperdiet venenatis volutpat ornare ante enim vel nec facilisis. Ac tempor quisque egestas molestie tortor.</description>
+        <step>
+          <title>Consultation</title>
+          <description>Fermentum quam a sapien at iaculis. Natoque amet hendrerit et turpis aenean.</description>
+        </step>
+        <step>
+          <title>Analysis</title>
+          <description>Fermentum quam a sapien at iaculis. Natoque amet hendrerit et turpis aenean.</description>
+        </step>
+        <step>
+          <title>Treatment</title>
+          <description>Fermentum quam a sapien at iaculis. Natoque amet hendrerit et turpis aenean.</description>
+        </step>
+        <step>
+          <title>Ongoing Care</title>
+          <description>Fermentum quam a sapien at iaculis. Natoque amet hendrerit et turpis aenean.</description>
+        </step>
+      </section>
+
+      <section name="testimonials">
+        <testimonial>
+          <name>Sarah Mitchell</name>
+          <role>Model / Artist</role>
+          <quote>The results exceeded my expectations. My skin has never looked this radiant and healthy.</quote>
+          <img>src/assets/images/beauty-skin.jpg</img>
+          <rating>5</rating>
+        </testimonial>
+        <testimonial>
+          <name>James Anderson</name>
+          <role>Senior Designer</role>
+          <quote>Professional, caring, and incredibly skilled. I recommend Cutisure to everyone.</quote>
+          <img>src/assets/images/skincare-professional.jpg</img>
+          <rating>5</rating>
+        </testimonial>
+      </section>
+
+      <section name="video_section">
+        <title1>Beauty Starts with Loving</title1>
+        <title2>Your Own Skin</title2>
+        <description>Fermentum dignissim turpis pellentesque nisi sociosqu. Si dui faucibus egestas condimentum vehicula. Ultricies eu conubia letius imperdiet arcu penatibus.</description>
+      </section>
+
+      <section name="pricing_preview">
+        <title>Care for Your Skin, Enhance Your Beauty</title>
+        <description>Sem lorem eget tempor taciti felis rutrum eleifend est cras montes. Auctor leo dictumst duis dui velit magnis lorem eleifend.</description>
+        <plan_desc>Clinical expertise combined with personalized care for your skin's health.</plan_desc>
+        <plan id="starter">
+          <name>Starter Plan</name>
+          <price>$79</price>
+          <feature>General Checkup</feature>
+          <feature>Skin Consultation</feature>
+          <feature>Basic Skin Analysis</feature>
+        </plan>
+        <plan id="premium">
+          <name>Premium Plan</name>
+          <price>$99</price>
+          <feature>General Checkup</feature>
+          <feature>Skin Consultation</feature>
+          <feature>Basic Skin Analysis</feature>
+          <feature>Skincare Advice</feature>
+        </plan>
+        <plan id="luxury">
+          <name>Luxury Plan</name>
+          <price>$199</price>
+          <feature>General Checkup</feature>
+          <feature>Skin Consultation</feature>
+          <feature>Basic Skin Analysis</feature>
+          <feature>Skincare Advice</feature>
+          <feature>Advanced Treatment</feature>
+        </plan>
+      </section>
+
+      <section name="appointment">
+        <title>Step Into Your Day with Confidence</title>
+        <description>Magna massa eleifend convallis facilisi a leo ultrices. Torquent rutrum class scelerisque eget pharetra pellentesque efficitur. Aliquam lacus felis duis turpis imperdiet ad hac.</description>
+        <opening_hours>
+          <mon_fri>08.00 AM – 20.00 PM</mon_fri>
+          <sat>08.00 AM – 15.00 PM</sat>
+        </opening_hours>
+      </section>
+
+      <section name="faq">
+        <title>Frequently Asked Questions</title>
+        <description>Litora augue id suspendisse nascetur fermentum finibus lacinia tortor aliquet aliquam sagittis.</description>
+        <still_questions_title>Still Have Questions?</still_questions_title>
+        <still_questions_desc>Aliquam nullam nisl dolor congue a feugiat ligula cursus quisque maximus.</still_questions_desc>
+        <item>
+          <question>Why choose us for your projects?</question>
+          <answer>Fusce netus ligula arcu pretium enim elit interdum dolor nisl ridiculus aptent. Vitae ut conubia nostra eros ligula justo metus auctor luctus hendrerit interdum.</answer>
+        </item>
+        <item>
+          <question>How we provide services for you?</question>
+          <answer>Litora augue id suspendisse fermentum finibus lacinia tortor aliquet aliquam sagittis. Mauris sit amet ligula id eros ullamcorper interdum sed vel metus.</answer>
+        </item>
+        <item>
+          <question>About content creation, can i participate in the idea?</question>
+          <answer>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Viva mus magna justo, lacinia eget consectetur sed, convallis at tellus.</answer>
+        </item>
+        <item>
+          <question>How we are affordable than others?</question>
+          <answer>Pellentesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Sed porttitor lectus nibh.</answer>
+        </item>
+        <item>
+          <question>What payment methods are available?</question>
+          <answer>Donec rutrum congue leo eget malesuada. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet.</answer>
+        </item>
+      </section>
+
+    </page>
+
+    <!-- ─────────────────────────────────────────────── -->
+    <!-- ABOUT PAGE                                      -->
+    <!-- ─────────────────────────────────────────────── -->
+    <page id="about">
+
+      <section name="hero">
+        <title1>Redefining</title1>
+        <title2>Clinical Excellence</title2>
+        <title3>In Beauty</title3>
+        <description>Founded in 2012, Cutisure Beauty Clinic was born from a simple vision: to bridge the gap between clinical dermatology and a luxury spa experience.</description>
+      </section>
+
+      <section name="story">
+        <title>Redefining Clinical Aesthetics</title>
+        <description>At Cutisure, every service is expertly backed by board-certified specialists, with fully personalized treatment paths using premium-grade, clinical skincare lines.</description>
+        <years_count>12+</years_count>
+      </section>
+
+      <section name="values">
+        <value icon="microscope">
+          <title>Innovation</title>
+          <description>We invest in the latest FDA-approved technology to ensure the best clinical outcomes.</description>
+        </value>
+        <value icon="target">
+          <title>Precision</title>
+          <description>Every skin is unique. Our treatments are highly personalized to your specific cellular needs.</description>
+        </value>
+        <value icon="heart">
+          <title>Care</title>
+          <description>We prioritize patient safety and comfort above all else, creating a sanctuary for your skin.</description>
+        </value>
+        <value icon="award">
+          <title>Excellence</title>
+          <description>Our specialists are continuously trained in the most advanced aesthetic techniques.</description>
+        </value>
+      </section>
+
+      <section name="team">
+        <title>Meet the Specialists</title>
+        <member>
+          <name>Dr. Elena Rossi</name>
+          <role>Medical Director</role>
+          <img>src/assets/images/Doctor-1.png</img>
+        </member>
+        <member>
+          <name>Julianne Thorne</name>
+          <role>Elite Esthetician</role>
+          <img>src/assets/images/Doctor-2.png</img>
+        </member>
+        <member>
+          <name>Marcus Sterling</name>
+          <role>Laser Specialist</role>
+         <img>src/assets/images/Doctor-4.png</img>
+        </member>
+      </section>
+
+    </page>
+
+    <!-- ─────────────────────────────────────────────── -->
+    <!-- SERVICES PAGE                                   -->
+    <!-- ─────────────────────────────────────────────── -->
+    <page id="services">
+
+      <section name="hero">
+        <title1>Precision Treatments for</title1>
+        <title2>Every Skin Concern</title2>
+        <description>Our menu of services is designed to deliver visible, medical-grade results while ensuring absolute comfort and luxury at Cutisure Beauty Clinic.</description>
+      </section>
+
+      <section name="feature">
+        <title>Medical-Grade Precision &amp; Care</title>
+        <description>Each aesthetic treatment is completely tailored to deliver immediate, visible changes while supporting your long-term skin health.</description>
+      </section>
+
+      <section name="categories">
+        <category id="facial">
+          <name>Facial Treatments</name>
+          <service id="hydrafacial" icon="droplet">
+            <title>Signature HydraFacial</title>
+            <description>Clinically proven to detoxify and hydrate the skin with immediate results.</description>
+            <price>From $199</price>
+            <duration>60 mins</duration>
+          </service>
+          <service id="medical_facial" icon="shield-check">
+            <title>Customized Medical Facial</title>
+            <description>Tailored to your specific skin concerns using pharmaceutical-grade products.</description>
+            <price>From $175</price>
+            <duration>75 mins</duration>
+          </service>
+        </category>
+        <category id="medical">
+          <name>Medical Aesthetics</name>
+          <service id="injectables" icon="sparkles">
+            <title>Injectables &amp; Dermal Fillers</title>
+            <description>Expertly administered by board-certified specialists for natural enhancements.</description>
+            <price>By Consult</price>
+            <duration>30 mins</duration>
+          </service>
+          <service id="microneedling" icon="microscope">
+            <title>Microneedling with PRP</title>
+            <description>Maximize skin regeneration and collagen production.</description>
+            <price>From $450</price>
+            <duration>90 mins</duration>
+          </service>
+        </category>
+        <category id="laser">
+          <name>Laser &amp; Performance</name>
+          <service id="laser_hair" icon="zap">
+            <title>Laser Hair Removal</title>
+            <description>State-of-the-art laser technology for painless and permanent hair reduction.</description>
+            <price>From $150</price>
+            <duration>45 mins</duration>
+          </service>
+          <service id="ipl" icon="waves">
+            <title>IPL Photofacial</title>
+            <description>Address sun damage, redness, and uneven skin tone precisely.</description>
+            <price>From $300</price>
+            <duration>60 mins</duration>
+          </service>
+        </category>
+      </section>
+
+      <section name="after_care">
+        <title>Not sure what you need?</title>
+        <description>Our skin specialists offer complimentary 15-minute consultations to help you find the perfect treatment path for your goals.</description>
+        <item>Personalized Care</item>
+        <item>Clinical Excellence</item>
+        <item>Luxury Experience</item>
+      </section>
+
+    </page>
+
+    <!-- ─────────────────────────────────────────────── -->
+    <!-- BLOG PAGE                                       -->
+    <!-- ─────────────────────────────────────────────── -->
+    <page id="blog">
+
+      <section name="hero">
+        <title1>The Cutisure</title1>
+        <title2>Journal</title2>
+        <description>Clinical insights, skincare routines, and the latest beauty innovations curated by our expert team.</description>
+      </section>
+
+      <section name="posts">
+        <post id="1">
+          <title>The Ultimate Guide to Pre-Summer Skincare</title>
+          <excerpt>Preparing your skin for the sun starts weeks before your vacation. Learn our clinical tips for a safe glow.</excerpt>
+          <tag>Skincare</tag>
+          <date>May 15, 2024</date>
+          <author>Elena Rossi</author>
+          <img>https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&amp;fit=crop&amp;q=80&amp;w=400&amp;h=250</img>
+        </post>
+        <post id="2">
+          <title>Understanding Retinol: Myth vs. Reality</title>
+          <excerpt>Demystifying one of the most powerful anti-aging ingredients in the world. Is it right for your skin type?</excerpt>
+          <tag>Ingredients</tag>
+          <date>May 10, 2024</date>
+          <author>Julianne Thorne</author>
+          <img>https://images.unsplash.com/photo-1590156221170-28a1d2e41723?auto=format&amp;fit=crop&amp;q=80&amp;w=400&amp;h=250</img>
+        </post>
+        <post id="3">
+          <title>What is 'Skin Cycling' and Does It Actually Work?</title>
+          <excerpt>Exploring the viral skincare routine from a clinical perspective. We dive deep into the science of recovery.</excerpt>
+          <tag>Beauty Trends</tag>
+          <date>May 05, 2024</date>
+          <author>Marcus Sterling</author>
+          <img>https://images.unsplash.com/photo-1512496011961-aa0e434dc439?auto=format&amp;fit=crop&amp;q=80&amp;w=400&amp;h=250</img>
+        </post>
+      </section>
+
+      <section name="newsletter">
+        <title>Join our beauty circle</title>
+        <description>Subscribe to our newsletter for exclusive offers, clinical updates, and skincare tips delivered to your inbox.</description>
+      </section>
+
+    </page>
+
+    <!-- ─────────────────────────────────────────────── -->
+    <!-- CONTACT PAGE                                    -->
+    <!-- ─────────────────────────────────────────────── -->
+    <page id="contact">
+
+      <section name="hero">
+        <title>Contact Us</title>
+        <description>Have questions or ready to start your skin journey? Our team is here to provide the support and expertise you need.</description>
+      </section>
+
+      <section name="form">
+        <title>Send Us a Message</title>
+        <description>Fill out the form below and our specialists will get back to you within 24 hours.</description>
+        <img>https://images.unsplash.com/photo-1596755389378-c31d21fd1273?auto=format&amp;fit=crop&amp;q=80&amp;w=1200</img>
+      </section>
+
+      <section name="info">
+        <phone1>+1 (234) 567–8910</phone1>
+        <phone2>+1 (234) 109–8765</phone2>
+        <email1>hello@cutisure.com</email1>
+        <email2>info@cutisure.com</email2>
+        <address>Golden Tower – 789 Oak St, Smalltown, TX 23456, United States</address>
+        <map_url>https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105759.50854497676!2d-118.4719277!3d34.068921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bc04d6d147ab%3A0xd6c7c379fd973d7d!2sBeverly%20Hills%2C%20CA!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus</map_url>
+      </section>
+
+    </page>
+
+  </pages_content>
+</content>
