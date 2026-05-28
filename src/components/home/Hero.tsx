@@ -2,10 +2,11 @@ import { motion } from 'motion/react';
 import { Sparkles, Play, Stethoscope, Award, Phone, MessageSquare, Sparkle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import beautyModelImg from '../../assets/images/hero-home.png';
-import decorationImg from '../../assets/images/Decoration-1.png';
-import treatmentImg from '../../assets/images/treatment_skincare_1779219956804.png';
 import { useContent } from '../../lib/ContentContext';
+
+const beautyModelImg = import.meta.env.BASE_URL + 'images/hero-home.png';
+const decorationImg = import.meta.env.BASE_URL + 'images/Decoration-1.png';
+const treatmentImg = import.meta.env.BASE_URL + 'images/treatment_skincare_1779219956804.png';
 
 export function Hero() {
   const { t } = useTranslation();

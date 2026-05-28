@@ -1,9 +1,9 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { useTranslation } from 'react-i18next';
 import { useContent } from '../../lib/ContentContext';
-import beautySkinlImg from '../../assets/images/beauty-skin.jpg';
+const beautySkinlImg = import.meta.env.BASE_URL + 'images/beauty-skin.jpg';
 
 export function Testimonials() {
   const { t } = useTranslation();
@@ -48,7 +48,7 @@ export function Testimonials() {
           {/* Large Quote Icon (Notched effect) - Exact as per image */}
           <div className="absolute top-0 right-0 w-32 h-32 bg-white rounded-bl-[40px] flex items-center justify-center text-[#A1E3E3] z-10 shadow-sm">
             <div className="scale-[3] font-serif font-black leading-none translate-y-1">
-              ”
+              â€
             </div>
           </div>
 

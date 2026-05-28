@@ -1,11 +1,12 @@
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
-import interiorImg from '../../assets/images/clinic_interior_1779219942247.png';
-import treatmentImg from '../../assets/images/treatment_skincare_1779219956804.png';
 import { useTranslation } from 'react-i18next';
 import { useContent } from '../../lib/ContentContext';
-import about1Img from '../../assets/images/about1.jpg';
-import about2Img from '../../assets/images/about2.jpg';
+
+const interiorImg = import.meta.env.BASE_URL + 'images/clinic_interior_1779219942247.png';
+const treatmentImg = import.meta.env.BASE_URL + 'images/treatment_skincare_1779219956804.png';
+const about1Img = import.meta.env.BASE_URL + 'images/about1.jpg';
+const about2Img = import.meta.env.BASE_URL + 'images/about2.jpg';
 
 export function AboutPreview() {
   const { t } = useTranslation();

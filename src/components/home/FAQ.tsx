@@ -1,10 +1,10 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ChevronsRight, ChevronDown } from 'lucide-react';
 import { cn } from '../../lib/utils';
 import { useTranslation } from 'react-i18next';
 import { useContent } from '../../lib/ContentContext';
-import manSeniorImg from '../../assets/images/man-senior.jpg';
+const manSeniorImg = import.meta.env.BASE_URL + 'images/man-senior.jpg';
 
 export function FAQ() {
   const { t } = useTranslation();

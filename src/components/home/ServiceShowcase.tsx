@@ -1,9 +1,9 @@
-import { motion } from 'motion/react';
+﻿import { motion } from 'motion/react';
 import { Syringe, User, Scissors, HeartPulse, Maximize2, MoveUp, Sparkles, LucideIcon } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useContent } from '../../lib/ContentContext';
-import girlSitImg from '../../assets/images/girl-sit.png';
-import decoration2Img from '../../assets/images/Decoration-2.png';
+const girlSitImg = import.meta.env.BASE_URL + 'images/girl-sit.png';
+const decoration2Img = import.meta.env.BASE_URL + 'images/Decoration-2.png';
 
 export function ServiceShowcase() {
   const { t } = useTranslation();

@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import treatmentImg from '../../assets/images/treatment_skincare_1779219956804.png';
 import { useContent } from '../../lib/ContentContext';
+
+const treatmentImg = import.meta.env.BASE_URL + 'images/treatment_skincare_1779219956804.png';
 
 export function ServicesFeature() {
   const { t } = useTranslation();

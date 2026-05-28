@@ -1,8 +1,8 @@
-import { HeartPulse, Stethoscope, MessageSquareMore, CheckCircle2, Sparkles } from 'lucide-react';
+﻿import { HeartPulse, Stethoscope, MessageSquareMore, CheckCircle2, Sparkles } from 'lucide-react';
 import { motion } from 'motion/react';
 import { useTranslation } from 'react-i18next';
 import { useContent } from '../../lib/ContentContext';
-import applyingMoisturiserImg from '../../assets/images/applying-moisturiser.jpg';
+const applyingMoisturiserImg = import.meta.env.BASE_URL + 'images/applying-moisturiser.jpg';
 
 export function WhyChooseUs() {
   const { t } = useTranslation();

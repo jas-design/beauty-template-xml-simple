@@ -1,8 +1,8 @@
-import { Play } from 'lucide-react';
+﻿import { Play } from 'lucide-react';
 import { motion } from 'motion/react';
 import { useTranslation } from 'react-i18next';
 import { useContent } from '../../lib/ContentContext';
-import asianWomanImg from '../../assets/images/asian-woman.jpg';
+const asianWomanImg = import.meta.env.BASE_URL + 'images/asian-woman.jpg';
 
 export function VideoSection() {
   const { t } = useTranslation();

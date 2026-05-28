@@ -1,5 +1,6 @@
-import interiorImg from '../../assets/images/clinic_interior_1779219942247.png';
 import { useContent } from '../../lib/ContentContext';
+
+const interiorImg = import.meta.env.BASE_URL + 'images/clinic_interior_1779219942247.png';
 
 export function StorySection() {
   const { about } = useContent();

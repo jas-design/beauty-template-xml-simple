@@ -1,7 +1,7 @@
-import { motion } from 'motion/react';
+﻿import { motion } from 'motion/react';
 import { Flower2 } from 'lucide-react';
 import { useContent } from '../../lib/ContentContext';
-import skincareProfessionalImg from '../../assets/images/skincare-professional.jpg';
+const skincareProfessionalImg = import.meta.env.BASE_URL + 'images/skincare-professional.jpg';
 
 export function ExpertBanner() {
   const { home } = useContent();

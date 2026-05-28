@@ -1,8 +1,8 @@
-import { motion } from 'motion/react';
+﻿import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useContent } from '../../lib/ContentContext';
-import nutritionistConsultationImg from '../../assets/images/nutritionist-consultation.jpg';
+const nutritionistConsultationImg = import.meta.env.BASE_URL + 'images/nutritionist-consultation.jpg';
 
 export function CallToActionBanner() {
    const { t } = useTranslation();
