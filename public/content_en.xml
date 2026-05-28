@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <content>
 
-  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
   <!-- GLOBAL SETTINGS                                     -->
-  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
   <global_settings>
     <colors>
       <primary>#1F8D92</primary>
@@ -20,14 +20,14 @@
     </pages>
   </global_settings>
 
-  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
   <!-- PAGES CONTENT                                       -->
-  <!-- ═══════════════════════════════════════════════════ -->
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
   <pages_content>
 
-    <!-- ─────────────────────────────────────────────── -->
+    <!-- â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ -->
     <!-- HOME PAGE                                       -->
-    <!-- ─────────────────────────────────────────────── -->
+    <!-- â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ -->
     <page id="home">
 
       <section name="hero">
@@ -121,14 +121,14 @@
           <name>Sarah Mitchell</name>
           <role>Model / Artist</role>
           <quote>The results exceeded my expectations. My skin has never looked this radiant and healthy.</quote>
-          <img>src/assets/images/beauty-skin.jpg</img>
+          <img>images/beauty-skin.jpg</img>
           <rating>5</rating>
         </testimonial>
         <testimonial>
           <name>James Anderson</name>
           <role>Senior Designer</role>
           <quote>Professional, caring, and incredibly skilled. I recommend Cutisure to everyone.</quote>
-          <img>src/assets/images/skincare-professional.jpg</img>
+          <img>images/skincare-professional.jpg</img>
           <rating>5</rating>
         </testimonial>
       </section>
@@ -173,8 +173,8 @@
         <title>Step Into Your Day with Confidence</title>
         <description>Magna massa eleifend convallis facilisi a leo ultrices. Torquent rutrum class scelerisque eget pharetra pellentesque efficitur. Aliquam lacus felis duis turpis imperdiet ad hac.</description>
         <opening_hours>
-          <mon_fri>08.00 AM – 20.00 PM</mon_fri>
-          <sat>08.00 AM – 15.00 PM</sat>
+          <mon_fri>08.00 AM â€“ 20.00 PM</mon_fri>
+          <sat>08.00 AM â€“ 15.00 PM</sat>
         </opening_hours>
       </section>
 
@@ -207,9 +207,9 @@
 
     </page>
 
-    <!-- ─────────────────────────────────────────────── -->
+    <!-- â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ -->
     <!-- ABOUT PAGE                                      -->
-    <!-- ─────────────────────────────────────────────── -->
+    <!-- â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ -->
     <page id="about">
 
       <section name="hero">
@@ -249,25 +249,25 @@
         <member>
           <name>Dr. Elena Rossi</name>
           <role>Medical Director</role>
-          <img>src/assets/images/Doctor-1.png</img>
+          <img>images/Doctor-1.png</img>
         </member>
         <member>
           <name>Julianne Thorne</name>
           <role>Elite Esthetician</role>
-          <img>src/assets/images/Doctor-2.png</img>
+          <img>images/Doctor-2.png</img>
         </member>
         <member>
           <name>Marcus Sterling</name>
           <role>Laser Specialist</role>
-         <img>src/assets/images/Doctor-4.png</img>
+         <img>images/Doctor-4.png</img>
         </member>
       </section>
 
     </page>
 
-    <!-- ─────────────────────────────────────────────── -->
+    <!-- â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ -->
     <!-- SERVICES PAGE                                   -->
-    <!-- ─────────────────────────────────────────────── -->
+    <!-- â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ -->
     <page id="services">
 
       <section name="hero">
@@ -339,9 +339,9 @@
 
     </page>
 
-    <!-- ─────────────────────────────────────────────── -->
+    <!-- â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ -->
     <!-- BLOG PAGE                                       -->
-    <!-- ─────────────────────────────────────────────── -->
+    <!-- â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ -->
     <page id="blog">
 
       <section name="hero">
@@ -357,7 +357,7 @@
           <tag>Skincare</tag>
           <date>May 15, 2024</date>
           <author>Elena Rossi</author>
-          <img>src/assets/images/skillful-cosmetology.jpg</img>
+          <img>images/skillful-cosmetology.jpg</img>
         </post>
         <post id="2">
           <title>Understanding Retinol: Myth vs. Reality</title>
@@ -365,7 +365,7 @@
           <tag>Ingredients</tag>
           <date>May 10, 2024</date>
           <author>Julianne Thorne</author>
-          <img>src/assets/images/ultrasonic-massager.jpg</img>
+          <img>images/ultrasonic-massager.jpg</img>
         </post>
         <post id="3">
           <title>What is 'Skin Cycling' and Does It Actually Work?</title>
@@ -373,7 +373,7 @@
           <tag>Beauty Trends</tag>
           <date>May 05, 2024</date>
           <author>Marcus Sterling</author>
-          <img>src/assets/images/glass-bottles.jpg</img>
+          <img>images/glass-bottles.jpg</img>
         </post>
       </section>
 
@@ -384,9 +384,9 @@
 
     </page>
 
-    <!-- ─────────────────────────────────────────────── -->
+    <!-- â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ -->
     <!-- CONTACT PAGE                                    -->
-    <!-- ─────────────────────────────────────────────── -->
+    <!-- â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ -->
     <page id="contact">
 
       <section name="hero">
@@ -401,11 +401,11 @@
       </section>
 
       <section name="info">
-        <phone1>+1 (234) 567–8910</phone1>
-        <phone2>+1 (234) 109–8765</phone2>
+        <phone1>+1 (234) 567â€“8910</phone1>
+        <phone2>+1 (234) 109â€“8765</phone2>
         <email1>hello@cutisure.com</email1>
         <email2>info@cutisure.com</email2>
-        <address>Golden Tower – 789 Oak St, Smalltown, TX 23456, United States</address>
+        <address>Golden Tower â€“ 789 Oak St, Smalltown, TX 23456, United States</address>
         <map_url>https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105759.50854497676!2d-118.4719277!3d34.068921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bc04d6d147ab%3A0xd6c7c379fd973d7d!2sBeverly%20Hills%2C%20CA!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus</map_url>
       </section>
 
@@ -413,3 +413,4 @@
 
   </pages_content>
 </content>
+

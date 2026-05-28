@@ -243,6 +243,19 @@ export interface SiteContent {
 
 // ─── XML Parser ────────────────────────────────────────────
 
+const BASE = import.meta.env.BASE_URL.endsWith('/')
+  ? import.meta.env.BASE_URL
+  : import.meta.env.BASE_URL + '/';
+
+/** Prefix relative image paths with Vite's base URL so they work on GitHub Pages sub-paths. */
+function resolveImg(src: string): string {
+  if (!src) return src;
+  // Already absolute (http/https/data) → leave untouched
+  if (/^(https?:|data:|\/\/)/.test(src)) return src;
+  // Strip any accidental leading slash to avoid double-slash
+  return BASE + src.replace(/^\//, '');
+}
+
 function getText(parent: Element, tag: string): string {
   return parent.querySelector(tag)?.textContent?.trim() ?? '';
 }
@@ -352,7 +365,7 @@ function parseXML(xml: string): SiteContent {
       name: getText(t, 'name'),
       role: getText(t, 'role'),
       quote: getText(t, 'quote'),
-      img: getText(t, 'img'),
+      img: resolveImg(getText(t, 'img')),
       rating: parseInt(getText(t, 'rating') || '5'),
     })),
     videoSection: {
@@ -416,7 +429,7 @@ function parseXML(xml: string): SiteContent {
       members: getAllElements(aboutPage.querySelector('section[name="team"]')!, 'member').map(m => ({
         name: getText(m, 'name'),
         role: getText(m, 'role'),
-        img: getText(m, 'img'),
+        img: resolveImg(getText(m, 'img')),
       })),
     },
   };
@@ -467,7 +480,7 @@ function parseXML(xml: string): SiteContent {
       tag: getText(p, 'tag'),
       date: getText(p, 'date'),
       author: getText(p, 'author'),
-      img: getText(p, 'img'),
+      img: resolveImg(getText(p, 'img')),
     })),
     newsletter: {
       title: getText(blogPage.querySelector('section[name="newsletter"]')!, 'title'),
@@ -485,7 +498,7 @@ function parseXML(xml: string): SiteContent {
     form: {
       title: getText(contactPage.querySelector('section[name="form"]')!, 'title'),
       description: getText(contactPage.querySelector('section[name="form"]')!, 'description'),
-      img: getText(contactPage.querySelector('section[name="form"]')!, 'img'),
+      img: resolveImg(getText(contactPage.querySelector('section[name="form"]')!, 'img')),
     },
     info: {
       phone1: getText(contactPage.querySelector('section[name="info"]')!, 'phone1'),
@@ -525,9 +538,8 @@ export function ContentProvider({ children }: { children: ReactNode }) {
     setLoading(true);
     // Map language to filename
     const filename = i18n.language === 'pt-BR' || i18n.language === 'pt' ? 'content_pt-BR.xml' : 'content_en.xml';
-    
-    const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + '/';
-    fetch(`${base}${filename}`)
+
+    fetch(`/${filename}`)
       .then(res => {
         if (!res.ok) throw new Error(`Failed to load ${filename}: ${res.status}`);
         return res.text();
