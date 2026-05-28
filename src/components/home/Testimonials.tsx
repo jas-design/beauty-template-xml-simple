@@ -52,7 +52,7 @@ export function Testimonials() {
 
           {/* Left: Image Container */}
           <div className="w-full lg:w-[45%] shrink-0 relative z-10">
-            <div className="rounded-[20px] overflow-hidden aspect-[4/3] min-h-[400px] shadow-sm bg-white">
+            <div className="rounded-[20px] overflow-hidden aspect-[4/3] min-h-[250px] sm:min-h-[350px] lg:min-h-[400px] shadow-sm bg-white">
               <AnimatePresence mode="wait">
                 <motion.img
                   key={index}
