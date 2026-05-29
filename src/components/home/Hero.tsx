@@ -1,16 +1,18 @@
-import { motion } from 'motion/react';
-import { Sparkles, Play, Stethoscope, Award, Phone, MessageSquare, Sparkle } from 'lucide-react';
+import { useState } from 'react';
+import { motion, AnimatePresence } from 'motion/react';
+import { Sparkles, Play, Stethoscope, Award, Phone, MessageSquare, Sparkle, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useContent } from '../../lib/ContentContext';
 
-const beautyModelImg = import.meta.env.BASE_URL + 'images/hero-home.png';
+const heroHomeImg = import.meta.env.BASE_URL + 'images/hero-home.png';
 const decorationImg = import.meta.env.BASE_URL + 'images/Decoration-1.png';
 const treatmentImg = import.meta.env.BASE_URL + 'images/treatment_skincare_1779219956804.png';
 
 export function Hero() {
   const { t } = useTranslation();
   const { home } = useContent();
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
     <section className="bg-mint-light min-h-screen pt-32 pb-10 px-6">
@@ -60,7 +62,7 @@ export function Hero() {
                 style={{ backgroundImage: `url(${decorationImg})` }}
               >
                 <img
-                  src={beautyModelImg}
+                  src={heroHomeImg}
                   alt="Cutisure Beauty"
                   className="h-[700px] w-[600px] object-cover select-none pointer-events-none translate-y-2"
                 />
@@ -71,8 +73,7 @@ export function Hero() {
           {/* Right Floating Card Group */}
           <div className="xl:w-[420px]">
             <div className="bg-white rounded-[20px] p-4 shadow-sm border border-gray-50 flex flex-col h-full gap-4">
-              {/* Video Section */}
-              <div className="relative rounded-[15px] overflow-hidden aspect-[16/10] group cursor-pointer bg-gray-100">
+              <div onClick={() => setIsModalOpen(true)} className="relative rounded-[15px] overflow-hidden aspect-[16/10] group cursor-pointer bg-gray-100">
                 <img
                   src={treatmentImg}
                   alt="Clinical Treatment"
@@ -180,9 +181,9 @@ export function Hero() {
 
             <div className="mt-8 flex items-center gap-6 relative z-10">
               <div className="w-14 h-14 bg-accent rounded-full flex items-center justify-center text-charcoal shadow-xl">
-                <Phone size={24} fill="currentColor" />
+                <Phone size={20} fill="currentColor" />
               </div>
-              <div className="text-3xl font-bold text-white tracking-widest">{home.features.consultation.phone}</div>
+              <div className="text-1xl font-bold text-white tracking-widest">{home.features.consultation.phone}</div>
             </div>
 
             {/* Background Chat Bubble Illustration */}
@@ -192,6 +193,47 @@ export function Hero() {
           </div>
         </div>
       </div>
+
+      {/* Video Modal Overlay */}
+      <AnimatePresence>
+        {isModalOpen && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setIsModalOpen(false)}
+            className="fixed inset-0 bg-black/85 z-[100] flex items-center justify-center p-4 md:p-8 cursor-pointer"
+          >
+            <motion.div
+              initial={{ scale: 0.95, y: 20 }}
+              animate={{ scale: 1, y: 0 }}
+              exit={{ scale: 0.95, y: 20 }}
+              transition={{ type: "spring", duration: 0.5 }}
+              onClick={(e) => e.stopPropagation()}
+              className="relative w-full max-w-4xl bg-black rounded-3xl overflow-hidden shadow-2xl aspect-video cursor-default"
+            >
+              {/* Close Button */}
+              <button
+                onClick={() => setIsModalOpen(false)}
+                className="absolute top-4 right-4 bg-white/10 hover:bg-white/20 text-white rounded-full p-2.5 transition-colors z-50 outline-none backdrop-blur-sm"
+              >
+                <X size={20} />
+              </button>
+
+              {/* YouTube Embed Iframe */}
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/f56g1qfzh6c?si=cxoPAc5Y6bJKEV-h&autoplay=1"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </section>
   );
 }
