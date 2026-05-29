@@ -1,4 +1,4 @@
-﻿import { motion } from 'motion/react';
+import { motion } from 'motion/react';
 import { Flower2 } from 'lucide-react';
 import { useContent } from '../../lib/ContentContext';
 const skincareProfessionalImg = import.meta.env.BASE_URL + 'images/skincare-professional.jpg';
@@ -6,7 +6,7 @@ const skincareProfessionalImg = import.meta.env.BASE_URL + 'images/skincare-prof
 export function ExpertBanner() {
   const { home } = useContent();
   return (
-    <section className="relative py-40 overflow-hidden flex items-center justify-center min-h-[500px]">
+    <section className="relative py-16 md:py-40 overflow-hidden flex items-center justify-center min-h-[500px]">
       <div className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${skincareProfessionalImg})` }}
       >

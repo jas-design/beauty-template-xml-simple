@@ -16,7 +16,7 @@ export function WhyChooseUs() {
   }));
 
   return (
-    <section className="pt-40 pb-24 bg-white relative z-10">
+    <section className="pt-16 pb-12 md:pt-40 md:pb-24 bg-white relative z-10">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
         <div className="space-y-12">
           <div className="space-y-4 text-center lg:text-left">
@@ -56,17 +56,17 @@ export function WhyChooseUs() {
             initial={{ opacity: 0, scale: 0.8, x: 20 }}
             whileInView={{ opacity: 1, scale: 1, x: 0 }}
             transition={{ duration: 0.6 }}
-            className="absolute bottom-12 right-[8%] bg-white rounded-[25px] p-6 shadow-2xl z-20 w-[220px] flex flex-col items-center border border-gray-50"
+            className="absolute bottom-4 md:bottom-12 right-[4%] md:right-[8%] bg-white rounded-[20px] md:rounded-[25px] p-3 md:p-6 shadow-2xl z-20 w-[150px] md:w-[220px] flex flex-col items-center border border-gray-50"
           >
             {/* Floating Icon Cicle */}
-            <div className="absolute -top-10 w-20 h-20 bg-[#2D999B] rounded-full border-[6px] border-white flex items-center justify-center text-[#D4E964] shadow-xl">
-              <Sparkles size={32} strokeWidth={1.5} />
+            <div className="absolute -top-6 md:-top-10 w-12 md:w-20 h-12 md:h-20 bg-[#2D999B] rounded-full border-[4px] md:border-[6px] border-white flex items-center justify-center text-[#D4E964] shadow-xl">
+              <Sparkles className="w-5 h-5 md:w-8 md:h-8" strokeWidth={1.5} />
             </div>
 
             {/* Stats Box */}
-            <div className="mt-6 bg-[#E3F5F5] rounded-[20px] p-6 w-full text-center">
-              <div className="text-[48px] font-serif font-medium text-[#2D999B] leading-none mb-3">97%</div>
-              <div className="text-[13px] font-bold text-gray-500 font-sans tracking-tight">{t('why_choose_us.stats')}</div>
+            <div className="mt-4 md:mt-6 bg-[#E3F5F5] rounded-[15px] md:rounded-[20px] p-3 md:p-6 w-full text-center">
+              <div className="text-[28px] md:text-[48px] font-serif font-medium text-[#2D999B] leading-none mb-2 md:mb-3">97%</div>
+              <div className="text-[10px] md:text-[13px] font-bold text-gray-500 font-sans tracking-tight">{t('why_choose_us.stats')}</div>
             </div>
           </motion.div>
         </div>

@@ -22,7 +22,7 @@ export function HowItWorks() {
   }));
 
   return (
-    <section className="py-32 bg-white">
+    <section className="py-16 md:py-32 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center space-y-6 mb-24">
           <div className="text-[#2D999B] font-bold uppercase tracking-[0.3em] text-[10px]">{t('how_it_works.badge')}</div>

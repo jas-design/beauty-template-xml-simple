@@ -17,7 +17,7 @@ export function FAQ() {
   }));
 
   return (
-    <section className="py-24 bg-white px-6 md:px-12">
+    <section className="py-12 md:py-24 bg-white px-6 md:px-12">
       <div className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
         {/* Left: Image with Offset Background */}
         <div className="relative max-w-xl mx-auto lg:mx-0">

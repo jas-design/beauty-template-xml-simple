@@ -19,7 +19,7 @@ export function PricingPreview() {
   }));
 
   return (
-    <section className="py-32 bg-white">
+    <section className="py-16 md:py-32 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col lg:flex-row justify-between items-start gap-12 mb-20">
           <div className="space-y-4">
@@ -48,7 +48,7 @@ export function PricingPreview() {
             >
               {/* Top Colored Section */}
               <div className={cn(
-                "p-12 text-center flex flex-col items-center",
+                "p-6 md:p-12 text-center flex flex-col items-center",
                 plan.highlight ? "bg-gradient-to-b from-[#156B6D] to-[#2D999B] text-white" : "bg-[#E3F5F5] text-[#1A1A1A]"
               )}>
                 <h3 className="text-3xl font-serif font-bold mb-6">{plan.name}</h3>
@@ -68,7 +68,7 @@ export function PricingPreview() {
               </div>
 
               {/* Bottom Feature List Section */}
-              <div className="p-12 pb-16 flex-1 bg-white">
+              <div className="p-6 md:p-12 pb-10 md:pb-16 flex-1 bg-white">
                 <h4 className="text-[14px] font-bold text-[#1A1A1A] mb-8">{t('pricing_preview.include')}</h4>
                 <ul className="space-y-0 text-gray-500">
                   {plan.features.map((feature, fIdx) => (

@@ -15,7 +15,7 @@ export function Hero() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <section className="bg-mint-light min-h-screen pt-32 pb-10 px-6">
+    <section className="bg-mint-light min-h-screen pt-20 pb-6 px-6 md:pt-32 md:pb-10">
       <div className="max-w-[1600px] mx-auto space-y-6">
         {/* Main Hero Row */}
         <div className="flex flex-col xl:flex-row gap-6">
@@ -39,7 +39,7 @@ export function Hero() {
             <div className="overflow-hidden relative z-10 w-full flex flex-col lg:flex-row items-center">
               {/* Left Text Side */}
               <div className="z-1 lg:w-3/5 p-10 md:p-16 space-y-6">
-                <h1 className="text-5xl md:text-6xl lg:text-[67px] font-serif font-bold text-[#1E4D4E] leading-[1.1] tracking-tight">
+                <h1 className="text-[36px] sm:text-5xl md:text-6xl lg:text-[67px] font-serif font-bold text-[#1E4D4E] leading-[1.1] tracking-tight">
                   {home.hero.title1}<br />
                   {home.hero.title2}
                 </h1>
@@ -58,7 +58,7 @@ export function Hero() {
 
               {/* Right Image Side */}
               <div
-                className="z-0 bg-contain md:bg-cover bg-center bg-no-repeat absolute  -bottom-8 md:bottom-[-50px] -right-12 md:right-[2%] h-[600px] w-[400px] md:w-[600px] flex items-end md:items-center  "
+                className="z-0 bg-contain md:bg-cover bg-center bg-no-repeat absolute  -bottom-8 md:bottom-[-50px] -right-40 md:right-[2%] h-[600px] w-[400px] md:w-[600px] flex items-end md:items-center  "
                 style={{ backgroundImage: `url(${decorationImg})` }}
               >
                 <img
@@ -141,7 +141,7 @@ export function Hero() {
             </div>
 
             <div className="space-y-4">
-              <h3 className="text-[32px] font-serif font-medium text-charcoal leading-tight">{home.features.modernTech.title}</h3>
+              <h3 className="text-[24px] md:text-[32px] font-serif font-medium text-charcoal leading-tight">{home.features.modernTech.title}</h3>
               <div className="w-12 h-0.5 bg-[#2D999B]/30" />
             </div>
 
@@ -161,7 +161,7 @@ export function Hero() {
             </div>
 
             <div className="space-y-4">
-              <h3 className="text-[32px] font-serif font-medium text-white leading-tight">{home.features.expert.title}</h3>
+              <h3 className="text-[24px] md:text-[32px] font-serif font-medium text-white leading-tight">{home.features.expert.title}</h3>
               <div className="w-12 h-0.5 bg-white/20" />
             </div>
 
@@ -173,7 +173,7 @@ export function Hero() {
           {/* Card 3: Consultation */}
           <div className="bg-dark-teal rounded-[40px] p-6 md:p-12 flex flex-col justify-between relative overflow-hidden min-h-[300px]">
             <div className="space-y-4 relative z-10">
-              <h3 className="text-3xl font-serif font-bold text-white leading-tight">{home.features.consultation.title}</h3>
+              <h3 className="text-[24px] md:text-[30px] font-serif font-bold text-white leading-tight">{home.features.consultation.title}</h3>
               <p className="text-white/60 text-sm max-w-sm leading-relaxed">
                 {home.features.consultation.description}
               </p>

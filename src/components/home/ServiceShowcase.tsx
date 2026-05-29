@@ -19,7 +19,7 @@ export function ServiceShowcase() {
   const rightServices = allServices.slice(3, 6);
 
   return (
-    <section className="py-24 bg-white overflow-hidden relative">
+    <section className="py-12 md:py-24 bg-white overflow-hidden relative">
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="text-center space-y-4 mb-20">
           <div className="text-[#2D999B] font-bold uppercase tracking-[0.3em] text-[10px]">{t('services_preview.badge')}</div>

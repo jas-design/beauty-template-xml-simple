@@ -12,7 +12,7 @@ export function AboutPreview() {
   const { t } = useTranslation();
   const { home } = useContent();
   return (
-    <section className="py-24 bg-white relative overflow-hidden">
+    <section className="py-12 md:py-24 bg-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
         <div className="space-y-8 order-2 lg:order-1">
           <div className="text-secondary font-bold uppercase tracking-widest text-xs">{t('about_preview.badge')}</div>
