@@ -29,7 +29,7 @@ export function AppointmentSection() {
             className="bg-white rounded-[15px] md:rounded-[50px] shadow-2xl lg:translate-y-32 lg:-ml-20 overflow-hidden flex flex-col order-2 lg:order-1"
           >
             <div className="p-3 md:p-14 space-y-10 flex-grow">
-              <div className="space-y-8">
+              <div className="space-y-2 md:space-y-8">
                 {/* Full Width Name */}
                 <div className="space-y-2.5">
                   <label className="text-sm font-semibold text-charcoal/80 ml-4">{t('appointment.form.labels.name')}</label>
@@ -119,7 +119,7 @@ export function AppointmentSection() {
               </p>
             </div>
 
-            <div className="space-y-8">
+            <div className="mb-2 md:mb-8 space-y-2 md:space-y-8">
               <h3 className="text-2xl font-serif text-charcoal font-medium">{t('appointment.opening_hours')}</h3>
               <div className="space-y-6">
                 <div className="flex justify-between items-center group">

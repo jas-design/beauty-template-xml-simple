@@ -1,5 +1,8 @@
 {
   "whatsapp_hover": "Fale com nossos especialistas",
+  "common": {
+    "contact": "Fale Conosco"
+  },
   "nav": {
     "home": "Início",
     "about": "Sobre Nós",

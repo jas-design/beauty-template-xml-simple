@@ -56,14 +56,14 @@ export function Navbar() {
               {(link.id === 'services' || link.id === 'blog') && <ChevronDown size={14} className="opacity-40" />}
             </Link>
           ))}
-          
+
           {/* Language Switcher */}
-          <button 
+          <button
             onClick={toggleLanguage}
             className="flex items-center gap-2 px-3 py-1.5 bg-gray-50 rounded-full text-[11px] font-bold text-charcoal hover:bg-primary/10 hover:text-primary transition-all border border-gray-100"
           >
             <Globe size={14} />
-            <span>{i18n.language === 'en' ? 'EN' : 'PT'}</span>
+            <span>{i18n.language === 'en' ? 'PT' : 'EN'}</span>
           </button>
         </div>
 
@@ -78,7 +78,7 @@ export function Navbar() {
               <span className="text-sm font-bold text-charcoal leading-tight">+1 (234) 567-8910</span>
             </div>
           </div>
-          
+
           <div className="h-10 w-px bg-gray-200 mx-8" />
 
           <div className="flex items-center gap-4">
@@ -94,19 +94,19 @@ export function Navbar() {
 
         {/* Mobile Toggle */}
         <div className="flex items-center gap-4 lg:hidden">
-            <button 
-                onClick={toggleLanguage}
-                className="flex items-center gap-2 px-3 py-1.5 bg-gray-50 rounded-full text-[11px] font-bold text-charcoal"
-            >
-                <Globe size={14} />
-                <span>{i18n.language === 'en' ? 'EN' : 'PT'}</span>
-            </button>
-            <button
-                className="p-2 text-charcoal"
-                onClick={() => setIsOpen(!isOpen)}
-            >
-                {isOpen ? <X size={24} /> : <Menu size={24} />}
-            </button>
+          <button
+            onClick={toggleLanguage}
+            className="flex items-center gap-2 px-3 py-1.5 bg-gray-50 rounded-full text-[11px] font-bold text-charcoal"
+          >
+            <Globe size={14} />
+            <span>{i18n.language === 'en' ? 'EN' : 'PT'}</span>
+          </button>
+          <button
+            className="p-2 text-charcoal"
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            {isOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
         </div>
       </nav>
 

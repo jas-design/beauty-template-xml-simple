@@ -1,5 +1,8 @@
 {
   "whatsapp_hover": "Chat with our Specialists",
+  "common": {
+    "contact": "Contact Us"
+  },
   "nav": {
     "home": "Home",
     "about": "About Us",

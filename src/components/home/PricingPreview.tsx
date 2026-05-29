@@ -21,12 +21,12 @@ export function PricingPreview() {
   return (
     <section className="pt-8 pb-16 md:py-32 bg-white">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="flex flex-col lg:flex-row justify-between items-start gap-12 mb-20">
+        <div className="flex flex-col lg:flex-row justify-between items-start gap-2 md:gap-12 mb-20">
           <div className="space-y-4">
             <div className="text-[#2D999B] font-bold uppercase tracking-[0.3em] text-[10px]">{t('pricing_preview.badge')}</div>
             <h2 className="text-[32px] md:text-[52px] font-serif text-[#1A1A1A] leading-tight max-w-xl">{home.pricingPreview.title}</h2>
           </div>
-          <div className="max-w-sm space-y-6 lg:text-left pt-10">
+          <div className="max-w-sm space-y-6 lg:text-left pt-2 md:pt-10">
             <p className="text-gray-400 text-[15px] leading-relaxed">
               {home.pricingPreview.description}
             </p>
@@ -51,8 +51,8 @@ export function PricingPreview() {
                 "p-6 md:p-12 text-center flex flex-col items-center",
                 plan.highlight ? "bg-gradient-to-b from-[#156B6D] to-[#2D999B] text-white" : "bg-[#E3F5F5] text-[#1A1A1A]"
               )}>
-                <h3 className="text-3xl font-serif font-bold mb-6">{plan.name}</h3>
-                <p className={cn("text-[13px] leading-relaxed max-w-[220px] mb-8", plan.highlight ? "text-white/80" : "text-gray-400")}>
+                <h3 className="text-3xl font-serif font-bold mb-2 md:mb-6">{plan.name}</h3>
+                <p className={cn("text-[13px] leading-relaxed max-w-[220px] mb-2 md:mb-8", plan.highlight ? "text-white/80" : "text-gray-400")}>
                   {plan.desc}
                 </p>
                 <div className="flex items-baseline justify-center gap-1 mb-8">
@@ -75,7 +75,7 @@ export function PricingPreview() {
                     <li
                       key={feature}
                       className={cn(
-                        "flex items-center gap-3 py-4 text-[15px] font-medium transition-colors",
+                        "flex items-center gap-3 py-1 md:py-4 text-[15px] font-medium transition-colors",
                         fIdx !== plan.features.length - 1 && "border-b border-dotted border-gray-200"
                       )}
                     >
