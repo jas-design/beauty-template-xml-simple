@@ -11,7 +11,7 @@ export function VideoSection() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <section className="py-12 md:py-24 bg-white">
+    <section className="pt-6 pb-12 md:py-24 bg-white">
       <div className="w-full px-[3%]">
         <div className="relative rounded-[32px] overflow-hidden min-h-[550px] flex items-center shadow-2xl">
           {/* Background Image & Overlay */}

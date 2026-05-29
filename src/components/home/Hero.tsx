@@ -15,7 +15,7 @@ export function Hero() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <section className="bg-mint-light min-h-screen pt-20 pb-6 px-6 md:pt-32 md:pb-10">
+    <section className="bg-mint-light min-h-screen pt-12 pb-6 px-6 md:pt-32 md:pb-10">
       <div className="max-w-[1600px] mx-auto space-y-6">
         {/* Main Hero Row */}
         <div className="flex flex-col xl:flex-row gap-6">

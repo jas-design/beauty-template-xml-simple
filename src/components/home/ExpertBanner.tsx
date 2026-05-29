@@ -6,7 +6,7 @@ const skincareProfessionalImg = import.meta.env.BASE_URL + 'images/skincare-prof
 export function ExpertBanner() {
   const { home } = useContent();
   return (
-    <section className="relative py-16 md:py-40 overflow-hidden flex items-center justify-center min-h-[500px]">
+    <section className="relative pt-8 pb-16 md:py-40 overflow-hidden flex items-center justify-center min-h-[500px]">
       <div className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${skincareProfessionalImg})` }}
       >

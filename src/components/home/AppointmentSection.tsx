@@ -8,7 +8,7 @@ export function AppointmentSection() {
   const { t } = useTranslation();
   const { home } = useContent();
   return (
-    <section className="py-12 md:py-24 lg:py-32 px-4 md:px-8">
+    <section className="pt-6 pb-12 md:py-24 lg:py-32 px-4 md:px-8">
       <div className="max-w-[1440px] w-full mx-auto bg-mint-light rounded-[40px] p-8 md:p-16 lg:p-24 relative">
         {/* Background elements (Flowers) - Clipped to the rounded box */}
         <div className="absolute inset-0 overflow-hidden rounded-[40px] pointer-events-none select-none">

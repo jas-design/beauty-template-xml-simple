@@ -19,7 +19,7 @@ export function PricingPreview() {
   }));
 
   return (
-    <section className="py-16 md:py-32 bg-white">
+    <section className="pt-8 pb-16 md:py-32 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col lg:flex-row justify-between items-start gap-12 mb-20">
           <div className="space-y-4">

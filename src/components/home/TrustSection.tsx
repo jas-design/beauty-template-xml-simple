@@ -12,7 +12,7 @@ const brands = [
 export function TrustSection() {
   const { t } = useTranslation();
   return (
-    <section className="py-10 md:py-20 bg-white">
+    <section className="pt-5 pb-10 md:py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6 text-center">
         <p className="text-sm font-bold uppercase tracking-[0.3em] text-charcoal/30 mb-10">{t('trust.badge')}</p>
         <div className="flex flex-wrap justify-center items-center gap-12 md:gap-20 opacity-40 grayscale">
