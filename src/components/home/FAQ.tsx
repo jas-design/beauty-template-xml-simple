@@ -1,4 +1,4 @@
-﻿import { useState } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ChevronsRight, ChevronDown } from 'lucide-react';
 import { cn } from '../../lib/utils';
@@ -45,7 +45,7 @@ export function FAQ() {
         <div className="space-y-12">
           <div className="space-y-6">
             <span className="text-[#3CB3AB] font-bold uppercase tracking-[0.2em] text-[12px]">{t('faq.badge')}</span>
-            <h2 className="text-5xl md:text-6xl font-serif text-charcoal leading-[1.1] font-medium">
+            <h2 className="text-[32px] md:text-[52px] font-serif text-charcoal leading-[1.1] font-medium">
               {home.faq.title}
             </h2>
             <p className="text-charcoal/60 leading-relaxed max-w-xl">

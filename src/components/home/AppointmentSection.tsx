@@ -111,7 +111,7 @@ export function AppointmentSection() {
           >
             <div className="space-y-6">
               <span className="text-primary font-bold uppercase tracking-[0.2em] text-[12px]">{t('appointment.badge')}</span>
-              <h2 className="text-5xl md:text-6xl font-serif text-charcoal leading-[1.1] font-medium">
+              <h2 className="text-[32px] md:text-[52px] font-serif text-charcoal leading-[1.1] font-medium">
                 {home.appointment.title}
               </h2>
               <p className="text-charcoal/60 leading-relaxed max-w-lg">

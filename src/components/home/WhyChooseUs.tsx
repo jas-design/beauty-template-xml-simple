@@ -1,4 +1,4 @@
-﻿import { HeartPulse, Stethoscope, MessageSquareMore, CheckCircle2, Sparkles } from 'lucide-react';
+import { HeartPulse, Stethoscope, MessageSquareMore, CheckCircle2, Sparkles } from 'lucide-react';
 import { motion } from 'motion/react';
 import { useTranslation } from 'react-i18next';
 import { useContent } from '../../lib/ContentContext';
@@ -21,7 +21,7 @@ export function WhyChooseUs() {
         <div className="space-y-12">
           <div className="space-y-4 text-center lg:text-left">
             <div className="text-[#2D999B] font-bold uppercase tracking-[0.3em] text-[10px]">{t('why_choose_us.badge')}</div>
-            <h2 className="text-[52px] font-serif text-[#1A1A1A] leading-tight">{home.whyChooseUs.title}</h2>
+            <h2 className="text-[32px] md:text-[52px] font-serif text-[#1A1A1A] leading-tight">{home.whyChooseUs.title}</h2>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xl">
               {home.whyChooseUs.description}
             </p>

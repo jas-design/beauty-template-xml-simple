@@ -16,7 +16,7 @@ export function AboutPreview() {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
         <div className="space-y-8 order-2 lg:order-1">
           <div className="text-secondary font-bold uppercase tracking-widest text-xs">{t('about_preview.badge')}</div>
-          <h2 className="text-5xl font-serif leading-tight text-primary">
+          <h2 className="text-[32px] md:text-[52px] font-serif leading-tight text-primary">
             {home.aboutPreview.title}
           </h2>
           <p className="text-sm font-bold border-l-2 border-secondary pl-6 italic text-charcoal/60">

@@ -26,7 +26,7 @@ export function HowItWorks() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center space-y-6 mb-24">
           <div className="text-[#2D999B] font-bold uppercase tracking-[0.3em] text-[10px]">{t('how_it_works.badge')}</div>
-          <h2 className="text-[52px] font-serif text-[#1A1A1A] leading-tight">{home.howItWorks.title}</h2>
+          <h2 className="text-[32px] md:text-[52px] font-serif text-[#1A1A1A] leading-tight">{home.howItWorks.title}</h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-[16px] leading-relaxed">
             {home.howItWorks.description}
           </p>

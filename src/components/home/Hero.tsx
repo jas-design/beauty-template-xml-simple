@@ -58,13 +58,13 @@ export function Hero() {
 
               {/* Right Image Side */}
               <div
-                className="z-0 bg-cover bg-center absolute bottom-[-50px] right-[2%] h-[600px] w-[600px]"
+                className="z-0 bg-contain md:bg-cover bg-center bg-no-repeat absolute  -bottom-8 md:bottom-[-50px] -right-12 md:right-[2%] h-[600px] w-[400px] md:w-[600px] flex items-end md:items-center  "
                 style={{ backgroundImage: `url(${decorationImg})` }}
               >
                 <img
                   src={heroHomeImg}
                   alt="Cutisure Beauty"
-                  className="h-[700px] w-[600px] object-cover select-none pointer-events-none translate-y-2"
+                  className="h-[400px] md:h-[700px] w-[600px] object-contain md:object-cover select-none pointer-events-none translate-y-2"
                 />
               </div>
             </div>
@@ -129,13 +129,13 @@ export function Hero() {
         {/* Bottom Feature Grid */}
         <div className="grid grid-cols-1 xl:grid-cols-3 gap-6">
           {/* Card 1: Modern Technology */}
-          <div className="bg-[#D4E964] rounded-[32px] p-10 flex flex-col justify-start relative group overflow-hidden min-h-[300px]">
+          <div className="bg-[#D4E964] rounded-[32px] p-6 md:p-10 flex flex-col justify-start relative group overflow-hidden min-h-0 md:min-h-[300px]">
             {/* Notch Icon */}
-            <div className="absolute top-0 right-0 w-28 h-28 pointer-events-none">
+            <div className="absolute top-0 right-0 w-20 md:w-28 h-20 md:h-28 pointer-events-none">
               {/* The "wave" background - matches the section bg */}
               <div className="absolute top-[-1px] right-[-1px] w-full h-full bg-mint-light rounded-bl-[48px]" />
               {/* The Icon Circle */}
-              <div className="absolute top-2 right-2 w-20 h-20 bg-[#2D999B] rounded-full flex items-center justify-center text-[#D4E964] shadow-sm pointer-events-auto">
+              <div className="absolute top-2 right-2 w-12 md:w-20 h-12 md:h-20 bg-[#2D999B] rounded-full flex items-center justify-center text-[#D4E964] shadow-sm pointer-events-auto">
                 <Stethoscope size={36} strokeWidth={1.5} />
               </div>
             </div>
@@ -151,11 +151,11 @@ export function Hero() {
           </div>
 
           {/* Card 2: Certified Expert */}
-          <div className="bg-[#2D999B] rounded-[32px] p-10 flex flex-col justify-start relative group overflow-hidden min-h-[300px]">
+          <div className="bg-[#2D999B] rounded-[32px] p-6 md:p-10 flex flex-col justify-start relative group overflow-hidden min-h-0 md:min-h-[300px]">
             {/* Notch Icon */}
-            <div className="absolute top-0 right-0 w-28 h-28 pointer-events-none">
+            <div className="absolute top-0 right-0 w-20 md:w-28 h-20 md:h-28 pointer-events-none">
               <div className="absolute top-[-1px] right-[-1px] w-full h-full bg-mint-light rounded-bl-[48px]" />
-              <div className="absolute top-2 right-2 w-20 h-20 bg-[#D4E964] rounded-full flex items-center justify-center text-[#2D999B] shadow-sm pointer-events-auto">
+              <div className="absolute top-2 right-2 w-12 md:w-20 h-12 md:h-20 bg-[#D4E964] rounded-full flex items-center justify-center text-[#2D999B] shadow-sm pointer-events-auto">
                 <Sparkles size={36} strokeWidth={1.5} />
               </div>
             </div>
@@ -171,7 +171,7 @@ export function Hero() {
           </div>
 
           {/* Card 3: Consultation */}
-          <div className="bg-dark-teal rounded-[40px] p-12 flex flex-col justify-between relative overflow-hidden min-h-[300px]">
+          <div className="bg-dark-teal rounded-[40px] p-6 md:p-12 flex flex-col justify-between relative overflow-hidden min-h-[300px]">
             <div className="space-y-4 relative z-10">
               <h3 className="text-3xl font-serif font-bold text-white leading-tight">{home.features.consultation.title}</h3>
               <p className="text-white/60 text-sm max-w-sm leading-relaxed">

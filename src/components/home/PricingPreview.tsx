@@ -24,7 +24,7 @@ export function PricingPreview() {
         <div className="flex flex-col lg:flex-row justify-between items-start gap-12 mb-20">
           <div className="space-y-4">
             <div className="text-[#2D999B] font-bold uppercase tracking-[0.3em] text-[10px]">{t('pricing_preview.badge')}</div>
-            <h2 className="text-[52px] font-serif text-[#1A1A1A] leading-tight max-w-xl">{home.pricingPreview.title}</h2>
+            <h2 className="text-[32px] md:text-[52px] font-serif text-[#1A1A1A] leading-tight max-w-xl">{home.pricingPreview.title}</h2>
           </div>
           <div className="max-w-sm space-y-6 lg:text-left pt-10">
             <p className="text-gray-400 text-[15px] leading-relaxed">

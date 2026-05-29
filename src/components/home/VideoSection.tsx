@@ -46,7 +46,7 @@ export function VideoSection() {
               <div className="w-full h-[1px] bg-white/30" />
 
               <div className="space-y-6 py-4">
-                <h2 className="text-[52px] font-serif font-medium leading-[1.2] tracking-tight">
+                <h2 className="text-[32px] md:text-[52px] font-serif font-medium leading-[1.2] tracking-tight">
                   {home.videoSection.title1} <br /> {home.videoSection.title2}
                 </h2>
                 <p className="text-[15px] opacity-90 leading-relaxed max-w-xl font-sans font-light">

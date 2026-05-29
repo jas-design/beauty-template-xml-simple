@@ -1,6 +1,7 @@
 import { Wind } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useContent } from '../../lib/ContentContext';
+const womanApplyingProductImg = import.meta.env.BASE_URL + 'images/woman-applying-product.jpg';
 
 export function ContactForm() {
   const { t } = useTranslation();
@@ -11,10 +12,10 @@ export function ContactForm() {
       <div className="max-w-7xl mx-auto">
         <div className="bg-[#F0F9F9] rounded-[40px] overflow-hidden shadow-[0_30px_100px_rgba(0,0,0,0.05)] grid grid-cols-1 lg:grid-cols-2">
           {/* Left Image */}
-          <div className="relative h-[400px] lg:h-auto p-12 lg:p-16">
+          <div className="relative h-[400px] lg:h-auto p-4 lg:p-16">
             <div className="relative h-full w-full rounded-[32px] overflow-hidden">
-              <img 
-                src={contact.form.img || "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?auto=format&fit=crop&q=80&w=1200"}
+              <img
+                src={womanApplyingProductImg}
                 className="w-full h-full object-cover"
                 alt="Contact Us"
               />
@@ -30,7 +31,7 @@ export function ContactForm() {
           </div>
 
           {/* Right Form */}
-          <div className="p-12 lg:p-20 flex flex-col justify-center">
+          <div className="p-4 lg:p-20 flex flex-col justify-center">
             <div className="space-y-2 mb-10">
               <h2 className="text-4xl md:text-5xl font-serif text-charcoal leading-tight">
                 {contact.form.title}
@@ -44,18 +45,18 @@ export function ContactForm() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <label className="text-[13px] font-serif text-charcoal font-medium ml-1">{t('contact_page.form.labels.first_name')}</label>
-                  <input 
-                    type="text" 
+                  <input
+                    type="text"
                     placeholder={t('contact_page.form.placeholders.first_name')}
-                    className="w-full bg-white rounded-xl py-4 px-6 outline-none shadow-[0_5px_15px_rgba(0,0,0,0.02)] focus:ring-2 focus:ring-primary/10 transition-all text-sm" 
+                    className="w-full bg-white rounded-xl py-4 px-6 outline-none shadow-[0_5px_15px_rgba(0,0,0,0.02)] focus:ring-2 focus:ring-primary/10 transition-all text-sm"
                   />
                 </div>
                 <div className="space-y-2">
                   <label className="text-[13px] font-serif text-charcoal font-medium ml-1">{t('contact_page.form.labels.last_name')}</label>
-                  <input 
-                    type="text" 
+                  <input
+                    type="text"
                     placeholder={t('contact_page.form.placeholders.last_name')}
-                    className="w-full bg-white rounded-xl py-4 px-6 outline-none shadow-[0_5px_15px_rgba(0,0,0,0.02)] focus:ring-2 focus:ring-primary/10 transition-all text-sm" 
+                    className="w-full bg-white rounded-xl py-4 px-6 outline-none shadow-[0_5px_15px_rgba(0,0,0,0.02)] focus:ring-2 focus:ring-primary/10 transition-all text-sm"
                   />
                 </div>
               </div>
@@ -63,28 +64,28 @@ export function ContactForm() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <label className="text-[13px] font-serif text-charcoal font-medium ml-1">{t('contact_page.form.labels.email')}</label>
-                  <input 
-                    type="email" 
+                  <input
+                    type="email"
                     placeholder={t('contact_page.form.placeholders.email')}
-                    className="w-full bg-white rounded-xl py-4 px-6 outline-none shadow-[0_5px_15px_rgba(0,0,0,0.02)] focus:ring-2 focus:ring-primary/10 transition-all text-sm" 
+                    className="w-full bg-white rounded-xl py-4 px-6 outline-none shadow-[0_5px_15px_rgba(0,0,0,0.02)] focus:ring-2 focus:ring-primary/10 transition-all text-sm"
                   />
                 </div>
                 <div className="space-y-2">
                   <label className="text-[13px] font-serif text-charcoal font-medium ml-1">{t('contact_page.form.labels.phone')}</label>
-                  <input 
-                    type="text" 
+                  <input
+                    type="text"
                     placeholder={t('contact_page.form.placeholders.phone')}
-                    className="w-full bg-white rounded-xl py-4 px-6 outline-none shadow-[0_5px_15px_rgba(0,0,0,0.02)] focus:ring-2 focus:ring-primary/10 transition-all text-sm" 
+                    className="w-full bg-white rounded-xl py-4 px-6 outline-none shadow-[0_5px_15px_rgba(0,0,0,0.02)] focus:ring-2 focus:ring-primary/10 transition-all text-sm"
                   />
                 </div>
               </div>
 
               <div className="space-y-2">
                 <label className="text-[13px] font-serif text-charcoal font-medium ml-1">{t('contact_page.form.labels.message')}</label>
-                <textarea 
+                <textarea
                   placeholder={t('contact_page.form.placeholders.message')}
-                  rows={4} 
-                  className="w-full bg-white rounded-xl py-4 px-6 outline-none shadow-[0_5px_15px_rgba(0,0,0,0.02)] focus:ring-2 focus:ring-primary/10 transition-all text-sm resize-none" 
+                  rows={4}
+                  className="w-full bg-white rounded-xl py-4 px-6 outline-none shadow-[0_5px_15px_rgba(0,0,0,0.02)] focus:ring-2 focus:ring-primary/10 transition-all text-sm resize-none"
                 />
               </div>
 

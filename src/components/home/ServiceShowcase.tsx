@@ -1,4 +1,4 @@
-﻿import { motion } from 'motion/react';
+import { motion } from 'motion/react';
 import { Syringe, User, Scissors, HeartPulse, Maximize2, MoveUp, Sparkles, LucideIcon } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useContent } from '../../lib/ContentContext';
@@ -23,7 +23,7 @@ export function ServiceShowcase() {
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="text-center space-y-4 mb-20">
           <div className="text-[#2D999B] font-bold uppercase tracking-[0.3em] text-[10px]">{t('services_preview.badge')}</div>
-          <h2 className="text-[52px] font-serif text-[#1A1A1A] leading-tight mt-2">{home.servicesPreview.title}</h2>
+          <h2 className="text-[32px] md:text-[52px] font-serif text-[#1A1A1A] leading-tight mt-2">{home.servicesPreview.title}</h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-sm leading-relaxed">
             {home.servicesPreview.description}
           </p>
