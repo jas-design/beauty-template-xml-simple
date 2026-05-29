@@ -30,7 +30,7 @@ export function Testimonials() {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="bg-[#E3F5F5] rounded-[30px] p-10 md:p-14 relative overflow-hidden flex flex-col lg:flex-row gap-12 lg:gap-20 items-center"
+          className="bg-[#E3F5F5] rounded-[30px] p-8 md:p-14 relative overflow-hidden flex flex-col lg:flex-row gap-8 lg:gap-20 items-stretch"
         >
           {/* Subtle Floral Background Pattern */}
           <div className="absolute top-0 right-0 w-1/2 h-full opacity-[0.08] pointer-events-none z-0">
@@ -46,13 +46,13 @@ export function Testimonials() {
             </svg>
           </div>
 
-          <div className="absolute top-0 right-0 w-32 h-32 bg-white rounded-bl-[40px] flex items-center justify-center z-10 shadow-sm">
-            <DoubleQuoteIcon className="w-16 h-16" style={{ color: '#A2E5E9' }} />
+          <div className="absolute top-0 right-0 w-24 h-24 md:w-32 md:h-32 bg-white rounded-bl-[35px] md:rounded-bl-[40px] flex items-center justify-center z-10">
+            <DoubleQuoteIcon className="w-11 h-11 md:w-16 md:h-16" style={{ color: '#9BE1E5' }} />
           </div>
 
-          {/* Left: Image Container */}
-          <div className="w-full lg:w-[45%] shrink-0 relative z-10 order-2 lg:order-1">
-            <div className="rounded-[20px] overflow-hidden aspect-[4/3] lg:min-h-[400px] shadow-sm bg-white">
+          {/* Left: Image Container (placed below on mobile, order-2) */}
+          <div className="w-full lg:w-[45%] shrink-0 relative z-10 order-2 lg:order-1 flex">
+            <div className="rounded-[24px] overflow-hidden aspect-[4/3] lg:min-h-[400px] shadow-sm bg-white w-full">
               <AnimatePresence mode="wait">
                 <motion.img
                   key={index}
@@ -68,62 +68,66 @@ export function Testimonials() {
             </div>
           </div>
 
-          {/* Right: Content Container */}
-          <div className="flex-1 space-y-10 relative z-10 order-1 lg:order-2">
-            <h2 className="text-[35px] font-serif text-[#1A1A1A] leading-tight">{t('testimonials.title')}</h2>
+          {/* Right: Content Container (placed on top on mobile, order-1) */}
+          <div className="flex-1 flex flex-col justify-between relative z-10 order-1 lg:order-2">
+            <div className="space-y-6 md:space-y-10">
+              <h2 className="text-[32px] md:text-[35px] font-serif text-[#1A1A1A] leading-tight max-w-[200px] md:max-w-none">
+                {t('testimonials.title')}
+              </h2>
 
-            <div className="space-y-10">
-              <div className="min-h-[120px] relative">
-                <AnimatePresence mode="wait">
-                  <motion.p
-                    key={index}
-                    initial={{ opacity: 0, x: 20 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    exit={{ opacity: 0, x: -20 }}
-                    className="text-[17px] text-gray-500 leading-relaxed max-w-[550px] font-sans"
-                  >
-                    {testimonials[index].quote}
-                  </motion.p>
-                </AnimatePresence>
-              </div>
+              <div className="space-y-6 md:space-y-10">
+                <div className="min-h-[100px] relative">
+                  <AnimatePresence mode="wait">
+                    <motion.p
+                      key={index}
+                      initial={{ opacity: 0, x: 20 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      exit={{ opacity: 0, x: -20 }}
+                      className="text-[16px] md:text-[17px] text-charcoal/70 leading-relaxed max-w-[550px] font-sans"
+                    >
+                      {testimonials[index].quote}
+                    </motion.p>
+                  </AnimatePresence>
+                </div>
 
-              <div className="flex flex-col md:flex-row md:items-center justify-between gap-8">
-                <AnimatePresence mode="wait">
-                  <motion.div
-                    key={index}
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -10 }}
-                    className="flex items-center gap-6"
-                  >
-                    <div className="w-20 h-20 rounded-full overflow-hidden border-[4px] border-white shadow-xl bg-white">
-                      <img
-                        src={testimonials[index].img}
-                        className="w-full h-full object-cover"
-                        alt={testimonials[index].name}
-                      />
-                    </div>
-                    <div className="space-y-1">
-                      <h4 className="text-[20px] font-serif font-bold text-[#1A1A1A]">{testimonials[index].name}</h4>
-                      <p className="text-[13px] text-gray-400 font-medium tracking-wide uppercase">{testimonials[index].role}</p>
-                    </div>
-                  </motion.div>
-                </AnimatePresence>
+                <div className="flex flex-row items-center justify-between gap-6">
+                  <AnimatePresence mode="wait">
+                    <motion.div
+                      key={index}
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -10 }}
+                      className="flex items-center gap-4"
+                    >
+                      <div className="w-16 h-16 md:w-20 md:h-20 rounded-full overflow-hidden bg-white shrink-0">
+                        <img
+                          src={testimonials[index].img}
+                          className="w-full h-full object-cover"
+                          alt={testimonials[index].name}
+                        />
+                      </div>
+                      <div className="space-y-0.5">
+                        <h4 className="text-[18px] md:text-[20px] font-serif font-bold text-[#1A1A1A]">{testimonials[index].name}</h4>
+                        <p className="text-[13px] text-charcoal/50 font-sans">{testimonials[index].role}</p>
+                      </div>
+                    </motion.div>
+                  </AnimatePresence>
 
-                {/* Navigation Controls */}
-                <div className="flex gap-4">
-                  <button
-                    onClick={prev}
-                    className="w-12 h-12 rounded-full border border-[#2D999B]/20 flex items-center justify-center text-[#2D999B] hover:bg-[#2D999B] hover:text-white transition-all shadow-sm"
-                  >
-                    <ChevronLeft size={20} />
-                  </button>
-                  <button
-                    onClick={next}
-                    className="w-12 h-12 rounded-full border border-[#2D999B]/20 flex items-center justify-center text-[#2D999B] hover:bg-[#2D999B] hover:text-white transition-all shadow-sm"
-                  >
-                    <ChevronRight size={20} />
-                  </button>
+                  {/* Navigation Controls */}
+                  <div className="flex gap-2 shrink-0">
+                    <button
+                      onClick={prev}
+                      className="w-10 h-10 rounded-full border border-[#2D999B]/20 flex items-center justify-center text-[#2D999B] hover:bg-[#2D999B] hover:text-white transition-all shadow-sm"
+                    >
+                      <ChevronLeft size={16} />
+                    </button>
+                    <button
+                      onClick={next}
+                      className="w-10 h-10 rounded-full border border-[#2D999B]/20 flex items-center justify-center text-[#2D999B] hover:bg-[#2D999B] hover:text-white transition-all shadow-sm"
+                    >
+                      <ChevronRight size={16} />
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>

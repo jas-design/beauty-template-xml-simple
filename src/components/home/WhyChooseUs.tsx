@@ -16,7 +16,7 @@ export function WhyChooseUs() {
   }));
 
   return (
-    <section className="pt-8 pb-12 md:pt-40 md:pb-24 bg-white relative z-10">
+    <section className="pt-40 md:pt-8 pb-12 md:pt-40 md:pb-24 bg-white relative z-10">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
         <div className="space-y-12">
           <div className="space-y-4 text-center lg:text-left">
@@ -29,12 +29,12 @@ export function WhyChooseUs() {
 
           <div className="space-y-10">
             {benefits.map((b) => (
-              <div key={b.title} className="flex gap-8 items-start group">
-                <div className="w-20 h-20 bg-[#2D999B] rounded-full flex items-center justify-center text-white shrink-0 shadow-lg group-hover:scale-110 transition-transform">
-                  <b.icon size={36} strokeWidth={1.5} />
+              <div key={b.title} className="flex flex-col lg:flex-row gap-4 lg:gap-8 items-start group">
+                <div className="w-16 h-16 lg:w-20 lg:h-20 bg-[#2D999B] rounded-full flex items-center justify-center text-white shrink-0 shadow-lg group-hover:scale-110 transition-transform">
+                  <b.icon className="w-8 h-8 lg:w-9 lg:h-9" strokeWidth={1.5} />
                 </div>
-                <div className="space-y-2 pt-1">
-                  <h3 className="text-2xl font-serif font-bold text-[#1A1A1A]">{b.title}</h3>
+                <div className="space-y-2 lg:pt-1">
+                  <h3 className="text-[22px] lg:text-2xl font-serif font-bold text-[#1A1A1A]">{b.title}</h3>
                   <p className="text-[15px] text-gray-400 leading-relaxed font-sans">{b.desc}</p>
                 </div>
               </div>

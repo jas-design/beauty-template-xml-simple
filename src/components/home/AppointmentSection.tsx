@@ -9,7 +9,7 @@ export function AppointmentSection() {
   const { home } = useContent();
   return (
     <section className="pt-6 pb-12 md:py-24 lg:py-32 px-4 md:px-8">
-      <div className="max-w-[1440px] w-full mx-auto bg-mint-light rounded-[40px] p-8 md:p-16 lg:p-24 relative">
+      <div className="max-w-[1440px] w-full mx-auto bg-mint-light rounded-[40px] p-3 md:p-16 lg:p-24 relative">
         {/* Background elements (Flowers) - Clipped to the rounded box */}
         <div className="absolute inset-0 overflow-hidden rounded-[40px] pointer-events-none select-none">
           <div className="absolute -bottom-10 -right-10 opacity-30">
@@ -22,21 +22,21 @@ export function AppointmentSection() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start relative z-10">
           {/* Left: Form Card */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="bg-white rounded-[50px] shadow-2xl lg:translate-y-32 lg:-ml-20 overflow-hidden flex flex-col order-2 lg:order-1"
+            className="bg-white rounded-[15px] md:rounded-[50px] shadow-2xl lg:translate-y-32 lg:-ml-20 overflow-hidden flex flex-col order-2 lg:order-1"
           >
-            <div className="p-8 md:p-14 space-y-10 flex-grow">
+            <div className="p-3 md:p-14 space-y-10 flex-grow">
               <div className="space-y-8">
                 {/* Full Width Name */}
                 <div className="space-y-2.5">
                   <label className="text-sm font-semibold text-charcoal/80 ml-4">{t('appointment.form.labels.name')}</label>
-                  <input 
-                    type="text" 
+                  <input
+                    type="text"
                     placeholder={t('appointment.form.placeholders.name')}
-                    className="w-full bg-white border border-gray-100 rounded-full py-4.5 px-8 outline-none focus:border-primary/30 transition-colors text-sm" 
+                    className="w-full bg-white border border-gray-100 rounded-full py-4.5 px-8 outline-none focus:border-primary/30 transition-colors text-sm"
                   />
                 </div>
 
@@ -44,18 +44,18 @@ export function AppointmentSection() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div className="space-y-2.5">
                     <label className="text-sm font-semibold text-charcoal/80 ml-4">{t('appointment.form.labels.email')}</label>
-                    <input 
-                      type="email" 
+                    <input
+                      type="email"
                       placeholder={t('appointment.form.placeholders.email')}
-                      className="w-full bg-white border border-gray-100 rounded-full py-4.5 px-8 outline-none focus:border-primary/30 transition-colors text-sm" 
+                      className="w-full bg-white border border-gray-100 rounded-full py-4.5 px-8 outline-none focus:border-primary/30 transition-colors text-sm"
                     />
                   </div>
                   <div className="space-y-2.5">
                     <label className="text-sm font-semibold text-charcoal/80 ml-4">{t('appointment.form.labels.phone')}</label>
-                    <input 
-                      type="tel" 
+                    <input
+                      type="tel"
                       placeholder={t('appointment.form.placeholders.phone')}
-                      className="w-full bg-white border border-gray-100 rounded-full py-4.5 px-8 outline-none focus:border-primary/30 transition-colors text-sm" 
+                      className="w-full bg-white border border-gray-100 rounded-full py-4.5 px-8 outline-none focus:border-primary/30 transition-colors text-sm"
                     />
                   </div>
                 </div>
@@ -63,30 +63,30 @@ export function AppointmentSection() {
                 {/* Full Width Date */}
                 <div className="space-y-2.5">
                   <label className="text-sm font-semibold text-charcoal/80 ml-4">{t('appointment.form.labels.date')}</label>
-                  <input 
-                    type="text" 
+                  <input
+                    type="text"
                     placeholder={t('appointment.form.placeholders.date')}
-                    className="w-full bg-white border border-gray-100 rounded-full py-4.5 px-8 outline-none focus:border-primary/30 transition-colors text-sm" 
+                    className="w-full bg-white border border-gray-100 rounded-full py-4.5 px-8 outline-none focus:border-primary/30 transition-colors text-sm"
                   />
                 </div>
 
                 {/* Full Width Time */}
                 <div className="space-y-2.5">
                   <label className="text-sm font-semibold text-charcoal/80 ml-4">{t('appointment.form.labels.time')}</label>
-                  <input 
-                    type="text" 
+                  <input
+                    type="text"
                     placeholder={t('appointment.form.placeholders.time')}
-                    className="w-full bg-white border border-gray-100 rounded-full py-4.5 px-8 outline-none focus:border-primary/30 transition-colors text-sm" 
+                    className="w-full bg-white border border-gray-100 rounded-full py-4.5 px-8 outline-none focus:border-primary/30 transition-colors text-sm"
                   />
                 </div>
 
                 {/* Full Width Message */}
                 <div className="space-y-2.5">
                   <label className="text-sm font-semibold text-charcoal/80 ml-4">{t('appointment.form.labels.message')}</label>
-                  <textarea 
-                    rows={5} 
+                  <textarea
+                    rows={5}
                     placeholder={t('appointment.form.placeholders.message')}
-                    className="w-full bg-white border border-gray-100 rounded-[35px] p-8 outline-none focus:border-primary/30 transition-colors text-sm resize-none" 
+                    className="w-full bg-white border border-gray-100 rounded-[35px] p-8 outline-none focus:border-primary/30 transition-colors text-sm resize-none"
                   />
                 </div>
               </div>
@@ -97,13 +97,13 @@ export function AppointmentSection() {
                 </button>
               </div>
             </div>
-            
+
             {/* Thick Teal Bottom Border */}
             <div className="h-[10px] w-full bg-[#209797]" />
           </motion.div>
 
           {/* Right: Info Content */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -123,24 +123,24 @@ export function AppointmentSection() {
               <h3 className="text-2xl font-serif text-charcoal font-medium">{t('appointment.opening_hours')}</h3>
               <div className="space-y-6">
                 <div className="flex justify-between items-center group">
-                  <span className="text-charcoal/70">{t('appointment.days.mon_fri')}</span>
+                  <span className="text-charcoal/70 text-[14px] md:text-[16px]">{t('appointment.days.mon_fri')}</span>
                   <div className="flex items-center gap-3">
                     <Clock size={18} className="text-primary" />
-                    <span className="text-charcoal font-medium">{home.appointment.openingHours.monFri}</span>
+                    <span className="text-charcoal text-[12px] md:font-medium">{home.appointment.openingHours.monFri}</span>
                   </div>
                 </div>
                 <div className="flex justify-between items-center group border-t border-primary/10 pt-6">
-                  <span className="text-charcoal/70">{t('appointment.days.sat')}</span>
+                  <span className="text-charcoal/70 text-[14px] md:text-[16px]">{t('appointment.days.sat')}</span>
                   <div className="flex items-center gap-3">
                     <Clock size={18} className="text-primary" />
-                    <span className="text-charcoal font-medium">{home.appointment.openingHours.sat}</span>
+                    <span className="text-charcoal text-[12px] md:font-medium">{home.appointment.openingHours.sat}</span>
                   </div>
                 </div>
                 <div className="flex justify-between items-center group border-t border-primary/10 pt-6">
-                  <span className="text-charcoal/70">{t('appointment.days.sun')}</span>
+                  <span className="text-charcoal/70 text-[14px] md:text-[16px]">{t('appointment.days.sun')}</span>
                   <div className="flex items-center gap-3">
                     <Clock size={18} className="text-primary" />
-                    <span className="text-charcoal font-medium">{t('appointment.days.closed')}</span>
+                    <span className="text-charcoal text-[12px] md:font-medium">{t('appointment.days.closed')}</span>
                   </div>
                 </div>
               </div>

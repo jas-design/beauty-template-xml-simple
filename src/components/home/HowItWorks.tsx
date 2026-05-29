@@ -40,24 +40,24 @@ export function HowItWorks() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: parseInt(s.step) * 0.1 }}
-              className={`group rounded-[20px] p-10 shadow-sm relative overflow-hidden flex flex-col justify-between min-h-[420px] transition-all hover:shadow-xl ${s.highlight ? 'bg-[#E3F5F5]' : 'bg-white border border-gray-50'}`}
+              className={`group rounded-[32px] p-8 md:p-10 shadow-sm relative overflow-hidden flex flex-col justify-between min-h-[unset] md:min-h-[420px] transition-all hover:shadow-xl ${s.highlight ? 'bg-[#E3F5F5]' : 'bg-white border border-gray-100'}`}
             >
               {/* Step Badge */}
-              <div className="absolute top-0 right-0 bg-[#2D999B] text-white px-4 py-2 text-[11px] font-bold rounded-bl-[10px] tracking-wider z-10">
+              <div className="absolute top-0 right-0 bg-[#2D999B] text-white px-5 py-2.5 text-[11px] font-bold rounded-bl-[16px] rounded-tr-[32px] tracking-wider z-10 uppercase">
                 {t('how_it_works.steps.step_label')} {s.step}
               </div>
 
               {/* Icon Section */}
-              <div className="mb-12">
-                <div className="text-[#2D999B] w-14 h-14">
+              <div className="mb-6 md:mb-12">
+                <div className="text-[#2D999B] w-10 h-10 md:w-14 md:h-14">
                   <s.icon className="w-full h-full" style={{ color: '#2D999B' }} />
                 </div>
               </div>
 
               {/* Content Section with Left Border */}
-              <div className="space-y-6 border-l-2 border-[#2D999B] pl-6 py-1">
-                <h3 className="text-3xl font-serif font-medium text-[#1A1A1A] leading-tight">{s.title}</h3>
-                <p className="text-[14px] text-gray-500 leading-relaxed font-sans max-w-[200px]">
+              <div className="space-y-4 border-l-[3.5px] border-[#2D999B] pl-5 py-1">
+                <h3 className="text-[24px] md:text-3xl font-serif font-medium text-[#1A1A1A] leading-tight">{s.title}</h3>
+                <p className="text-[14px] md:text-[15px] text-gray-500 leading-relaxed font-sans max-w-[260px]">
                   {s.desc}
                 </p>
               </div>
