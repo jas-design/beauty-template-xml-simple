@@ -50,14 +50,14 @@
   },
   "expert_banner": {
     "title": "Expert Skin Doctors Dedicated to Your Beauty",
-    "desc_1": "Scelerisque non suspendisse conubia tincidunt efficitur nibh posuere.",
-    "desc_2": "Habitant lacinia etiam venenatis magna."
+    "desc_1": "Clinical excellence and state-of-the-art technology for outstanding results.",
+    "desc_2": "Caring for your skin with passion and precision."
   },
   "services_preview": {
     "badge": "OUR SERVICES",
     "title": "Elevate Your Skin with Expert Treatment",
-    "description": "Ultricies auctor aptent imperdiet venenatis volutpat ornare ante enim vel nec facilisis. Ac tempor quisque egestas molestie tortor.",
-    "service_desc": "Leo purus eu orci tincidunt torquent. Lectus nibh aliquam vitae interdum a penatibus.",
+    "description": "Personalized treatments designed to enhance your self-confidence and skin health.",
+    "service_desc": "Your well-being is our commitment. Tailored treatments for your unique needs.",
     "service_list": {
       "face": "Face Treatment",
       "filler": "Filler & Botox",
@@ -70,8 +70,8 @@
   "why_choose_us": {
     "badge": "WHY CHOOSE US",
     "title": "Where Professional Care Meets Healthy Skin",
-    "description": "Integer odio orci senectus porttitor dignissim pellentesque condimentum tincidunt lacus habitant dis. Facilisis lacinia suspendisse inceptos diam curabitur tristique maecenas torquent egestas luctus aenean commodo.",
-    "benefit_desc": "Ligula in magnis commodo sociosqu facilisi leo suspendisse libero netus. Dis bibendum mi est ornare quam per eu.",
+    "description": "We offer the most advanced treatments with a total focus on patient safety and well-being.",
+    "benefit_desc": "Safety and precision in every detail of your specialized care.",
     "benefits": {
       "safe": "Safe Treatments",
       "equip": "Advanced Equipment & Facilities",
@@ -81,7 +81,7 @@
   },
   "cta_banner": {
     "title": "Get Free Consultation",
-    "description": "Egestas taciti vulputate adipiscing purus posuere suspendisse lectus luctus.",
+    "description": "Take the first step toward the skin of your dreams with our specialists.",
     "title_large": "Your Journey to Better Skin Starts Here",
     "description_large": "Expert clinical care tailored to your unique skin needs. Join our community of healthy skin lovers."
   },
@@ -190,9 +190,9 @@
   "about_preview": {
     "badge": "About Cutisure",
     "title": "Discover the True Glow of Healthy and Beautiful Skin",
-    "quote": "Eget ligula mattis donec orci sem faucibus gravida non felis magna nascetuer. Faucibus hendrerit sed ex ultrices ornare vel molestie libero pulvinar mattis donec faucibus.",
+    "quote": "Specialized care with proven results to enhance your natural beauty.",
     "desc_1": "Founded with a passion for precise aesthetics, Cutisure Beauty Clinic combines medical-grade technology with a luxury spa environment. Our mission is to enhance your natural beauty through personalized skin journeys.",
-    "desc_2": "Curabitur aptent condimentum vehicula lobortis commodo torquent aliquet. Volutpat vitae potenti et placerat sapien nisl nostra mi.",
+    "desc_2": "We use the latest technologies to ensure safety and excellence in every treatment.",
     "cta": "More About Us",
     "stats": {
       "years": "15+",
@@ -202,17 +202,17 @@
   "how_it_works": {
     "badge": "HOW IT WORKS",
     "title": "Treat your skin with the best treatment",
-    "description": "Ultricies auctor aptent imperdiet venenatis volutpat ornare ante enim vel nec facilisis. Ac tempor quisque egestas molestie tortor.",
+    "description": "Our exclusive methodology ensures each patient receives the ideal treatment for their skin type.",
     "steps": {
       "step_label": "STEP",
       "s1_title": "Consultation",
-      "s1_desc": "Fermentum quam a sapien at iaculis. Natoque amet hendrerit et turpis aenean.",
+      "s1_desc": "A detailed assessment to understand your skin's unique needs.",
       "s2_title": "Analysis",
-      "s2_desc": "Fermentum quam a sapien at iaculis. Natoque amet hendrerit et turpis aenean.",
+      "s2_desc": "We use advanced technology to analyze your skin's health deeply.",
       "s3_title": "Treatment",
-      "s3_desc": "Fermentum quam a sapien at iaculis. Natoque amet hendrerit et turpis aenean.",
+      "s3_desc": "Procedures performed by specialists with focus on comfort and results.",
       "s4_title": "Ongoing Care",
-      "s4_desc": "Fermentum quam a sapien at iaculis. Natoque amet hendrerit et turpis aenean."
+      "s4_desc": "Follow-up plan and guidance to maintain your skin health and glow."
     }
   },
   "testimonials": {
@@ -225,28 +225,28 @@
   "faq": {
     "badge": "HAVE QUESTIONS?",
     "title": "Frequently Asked Questions",
-    "description": "Litora augue id suspendisse nascetur fermentum finibus lacinia tortor aliquet aliquam sagittis.",
+    "description": "Find answers to the most common questions about our clinic and treatments.",
     "still_questions": {
       "title": "Still Have Questions?",
-      "desc": "Aliquam nullam nisl dolor congue a feugiat ligula cursus quisque maximus."
+      "desc": "Our team is ready to help you with any additional information you need."
     },
     "items": {
       "q1": "Why choose us for your projects?",
-      "a1": "Fusce netus ligula arcu pretium enim elit interdum dolor nisl ridiculus aptent. Vitae ut conubia nostra eros ligula justo metus auctor luctus hendrerit interdum.",
+      "a1": "We offer a unique combination of medical expertise, cutting-edge technology, and a warm, luxurious environment.",
       "q2": "How we provide services for you?",
-      "a2": "Litora augue id suspendisse fermentum finibus lacinia tortor aliquet aliquam sagittis. Mauris sit amet ligula id eros ullamcorper interdum sed vel metus.",
+      "a2": "Each service begins with a detailed consultation, followed by a personalized treatment plan for your goals.",
       "q3": "About content creation, can i participate in the idea?",
-      "a3": "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Viva mus magna justo, lacinia eget consectetur sed, convallis at tellus.",
+      "a3": "Yes, we believe in collaborative care where we explain all options to decide the best path together.",
       "q4": "How we are affordable than others?",
-      "a4": "Pellentesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Sed porttitor lectus nibh.",
+      "a4": "We offer various packages and plans that fit different needs while maintaining premium standards.",
       "q5": "What payment methods are available?",
-      "a5": "Donec rutrum congue leo eget malesuada. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet."
+      "a5": "We accept major credit cards, bank transfers, and other options to make your care journey easy."
     }
   },
   "pricing_preview": {
     "badge": "CHOOSE PACKAGE",
     "title": "Care for Your Skin, Enhance Your Beauty",
-    "desc": "Sem lorem eget tempor taciti felis rutrum eleifend est cras montes. Auctor leo dictumst duis dui velit magnis lorem eleifend.",
+    "desc": "Packages designed to offer the best value for high-performance treatments.",
     "cta": "Custom Package",
     "include": "Package include:",
     "purchase": "Purchase Now",
@@ -271,13 +271,13 @@
   "video_section": {
     "title_1": "Beauty Starts with Loving",
     "title_2": "Your Own Skin",
-    "description": "Fermentum dignissim turpis pellentesque nisi sociosqu. Si dui faucibus egestas condimentum vehicula. Ultricies eu conubia letius imperdiet arcu penatibus.",
+    "description": "Specialized care and advanced technology to enhance your unique, healthy essence.",
     "cta": "Discover More"
   },
   "appointment": {
     "badge": "MAKE AN APPOINTMENT",
     "title": "Step Into Your Day with Confidence",
-    "description": "Magna massa eleifend convallis facilisi a leo ultrices. Torquent rutrum class scelerisque eget pharetra pellentesque efficitur. Aliquam lacus felis duis turpis imperdiet ad hac.",
+    "description": "Schedule your appointment and start your skin transformation with our medical experts.",
     "opening_hours": "Opening Hours:",
     "hours": {
       "mon_fri": "08.00 AM – 20.00 PM",

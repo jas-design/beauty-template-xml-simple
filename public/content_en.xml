@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <content>
 
   <!-- GLOBAL SETTINGS                                     -->
@@ -48,22 +48,22 @@
 
       <section name="expert_banner">
         <title>Expert Skin Doctors Dedicated to Your Beauty</title>
-        <desc1>Scelerisque non suspendisse conubia tincidunt efficitur nibh posuere.</desc1>
-        <desc2>Habitant lacinia etiam venenatis magna.</desc2>
+        <desc1>Clinical excellence and state-of-the-art technology for outstanding results.</desc1>
+        <desc2>Caring for your skin with passion and precision.</desc2>
       </section>
 
       <section name="about_preview">
         <title>Discover the True Glow of Healthy and Beautiful Skin</title>
-        <quote>Eget ligula mattis donec orci sem faucibus gravida non felis magna nascetuer. Faucibus hendrerit sed ex ultrices ornare vel molestie libero pulvinar mattis donec faucibus.</quote>
+        <quote>Specialized care with proven results to enhance your natural beauty.</quote>
         <desc1>Founded with a passion for precise aesthetics, Cutisure Beauty Clinic combines medical-grade technology with a luxury spa environment. Our mission is to enhance your natural beauty through personalized skin journeys.</desc1>
-        <desc2>Curabitur aptent condimentum vehicula lobortis commodo torquent aliquet. Volutpat vitae potenti et placerat sapien nisl nostra mi.</desc2>
+        <desc2>We use the latest technologies to ensure safety and excellence in every treatment.</desc2>
         <years_count>15+</years_count>
       </section>
 
       <section name="services_preview">
         <title>Elevate Your Skin with Expert Treatment</title>
-        <description>Ultricies auctor aptent imperdiet venenatis volutpat ornare ante enim vel nec facilisis. Ac tempor quisque egestas molestie tortor.</description>
-        <service_desc>Leo purus eu orci tincidunt torquent. Lectus nibh aliquam vitae interdum a penatibus.</service_desc>
+        <description>Personalized treatments designed to enhance your self-confidence and skin health.</description>
+        <service_desc>Your well-being is our commitment. Tailored treatments for your unique needs.</service_desc>
         <service id="face">Face Treatment</service>
         <service id="filler">Filler &amp; Botox</service>
         <service id="plastic">Plastic Surgery</service>
@@ -74,8 +74,8 @@
 
       <section name="why_choose_us">
         <title>Where Professional Care Meets Healthy Skin</title>
-        <description>Integer odio orci senectus porttitor dignissim pellentesque condimentum tincidunt lacus habitant dis. Facilisis lacinia suspendisse inceptos diam curabitur tristique maecenas torquent egestas luctus aenean commodo.</description>
-        <benefit_desc>Ligula in magnis commodo sociosqu facilisi leo suspendisse libero netus. Dis bibendum mi est ornare quam per eu.</benefit_desc>
+        <description>We offer the most advanced treatments with a total focus on patient safety and well-being.</description>
+        <benefit_desc>Safety and precision in every detail of your specialized care.</benefit_desc>
         <benefit>Safe Treatments</benefit>
         <benefit>Advanced Equipment &amp; Facilities</benefit>
         <benefit>24/7 Premium Support</benefit>
@@ -84,29 +84,29 @@
 
       <section name="cta_banner">
         <title>Get Free Consultation</title>
-        <description>Egestas taciti vulputate adipiscing purus posuere suspendisse lectus luctus.</description>
+        <description>Take the first step toward the skin of your dreams with our specialists.</description>
         <title_large>Your Journey to Better Skin Starts Here</title_large>
         <description_large>Expert clinical care tailored to your unique skin needs. Join our community of healthy skin lovers.</description_large>
       </section>
 
       <section name="how_it_works">
         <title>Treat your skin with the best treatment</title>
-        <description>Ultricies auctor aptent imperdiet venenatis volutpat ornare ante enim vel nec facilisis. Ac tempor quisque egestas molestie tortor.</description>
+        <description>Our exclusive methodology ensures each patient receives the ideal treatment for their skin type.</description>
         <step>
           <title>Consultation</title>
-          <description>Fermentum quam a sapien at iaculis. Natoque amet hendrerit et turpis aenean.</description>
+          <description>A detailed assessment to understand your skin's unique needs.</description>
         </step>
         <step>
           <title>Analysis</title>
-          <description>Fermentum quam a sapien at iaculis. Natoque amet hendrerit et turpis aenean.</description>
+          <description>We use advanced technology to analyze your skin's health deeply.</description>
         </step>
         <step>
           <title>Treatment</title>
-          <description>Fermentum quam a sapien at iaculis. Natoque amet hendrerit et turpis aenean.</description>
+          <description>Procedures performed by specialists with focus on comfort and results.</description>
         </step>
         <step>
           <title>Ongoing Care</title>
-          <description>Fermentum quam a sapien at iaculis. Natoque amet hendrerit et turpis aenean.</description>
+          <description>Follow-up plan and guidance to maintain your skin health and glow.</description>
         </step>
       </section>
 
@@ -130,12 +130,12 @@
       <section name="video_section">
         <title1>Beauty Starts with Loving</title1>
         <title2>Your Own Skin</title2>
-        <description>Fermentum dignissim turpis pellentesque nisi sociosqu. Si dui faucibus egestas condimentum vehicula. Ultricies eu conubia letius imperdiet arcu penatibus.</description>
+        <description>Specialized care and advanced technology to enhance your unique, healthy essence.</description>
       </section>
 
       <section name="pricing_preview">
         <title>Care for Your Skin, Enhance Your Beauty</title>
-        <description>Sem lorem eget tempor taciti felis rutrum eleifend est cras montes. Auctor leo dictumst duis dui velit magnis lorem eleifend.</description>
+        <description>Packages designed to offer the best value for high-performance treatments.</description>
         <plan_desc>Clinical expertise combined with personalized care for your skin's health.</plan_desc>
         <plan id="starter">
           <name>Starter Plan</name>
@@ -165,7 +165,7 @@
 
       <section name="appointment">
         <title>Step Into Your Day with Confidence</title>
-        <description>Magna massa eleifend convallis facilisi a leo ultrices. Torquent rutrum class scelerisque eget pharetra pellentesque efficitur. Aliquam lacus felis duis turpis imperdiet ad hac.</description>
+        <description>Schedule your appointment and start your skin transformation with our medical experts.</description>
         <opening_hours>
           <mon_fri>08.00 AM - 20.00 PM</mon_fri>
           <sat>08.00 AM - 15.00 PM</sat>
@@ -174,28 +174,28 @@
 
       <section name="faq">
         <title>Frequently Asked Questions</title>
-        <description>Litora augue id suspendisse nascetur fermentum finibus lacinia tortor aliquet aliquam sagittis.</description>
+        <description>Find answers to the most common questions about our clinic and treatments.</description>
         <still_questions_title>Still Have Questions?</still_questions_title>
-        <still_questions_desc>Aliquam nullam nisl dolor congue a feugiat ligula cursus quisque maximus.</still_questions_desc>
+        <still_questions_desc>Our team is ready to help you with any additional information you need.</still_questions_desc>
         <item>
           <question>Why choose us for your projects?</question>
-          <answer>Fusce netus ligula arcu pretium enim elit interdum dolor nisl ridiculus aptent. Vitae ut conubia nostra eros ligula justo metus auctor luctus hendrerit interdum.</answer>
+          <answer>We offer a unique combination of medical expertise, cutting-edge technology, and a warm, luxurious environment.</answer>
         </item>
         <item>
           <question>How we provide services for you?</question>
-          <answer>Litora augue id suspendisse fermentum finibus lacinia tortor aliquet aliquam sagittis. Mauris sit amet ligula id eros ullamcorper interdum sed vel metus.</answer>
+          <answer>Each service begins with a detailed consultation, followed by a personalized treatment plan for your goals.</answer>
         </item>
         <item>
           <question>About content creation, can i participate in the idea?</question>
-          <answer>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Viva mus magna justo, lacinia eget consectetur sed, convallis at tellus.</answer>
+          <answer>Yes, we believe in collaborative care where we explain all options to decide the best path together.</answer>
         </item>
         <item>
           <question>How we are affordable than others?</question>
-          <answer>Pellentesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat. Sed porttitor lectus nibh.</answer>
+          <answer>We offer various packages and plans that fit different needs while maintaining premium standards.</answer>
         </item>
         <item>
           <question>What payment methods are available?</question>
-          <answer>Donec rutrum congue leo eget malesuada. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet.</answer>
+          <answer>We accept major credit cards, bank transfers, and other options to make your care journey easy.</answer>
         </item>
       </section>
 
